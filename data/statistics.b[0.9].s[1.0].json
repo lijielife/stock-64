@@ -1,1 +1,111 @@
-[buyRate]0.9-[sellRate]1.0-[focus]592-[buy]120-[sell]41
+StockCode[sh600029] StockName[南方航空] Industry[民航机场] 
+FocusDate[2015-02-17], FocusPrice[5.07] 
+
+StockCode[sh600091] StockName[ST明科] Industry[化工行业] 
+FocusDate[2015-01-21], FocusPrice[5.74] 
+
+StockCode[sh600097] StockName[开创国际] Industry[农牧饲渔] 
+FocusDate[2015-01-26], FocusPrice[15.51] 
+BuyDate[2015-02-06] BuyPrice[13.96] 
+
+StockCode[sh600156] StockName[华升股份] Industry[国际贸易] 
+FocusDate[2015-01-16], FocusPrice[7.86] 
+BuyDate[2015-01-19] BuyPrice[7.07] 
+SellDate[2015-01-20] SellPrice[7.86]
+
+StockCode[sh600211] StockName[西藏药业] Industry[医药行业] 
+FocusDate[2015-01-15], FocusPrice[39.31] 
+BuyDate[2015-02-09] BuyPrice[35.38] 
+SellDate[2015-02-25] SellPrice[39.31]
+
+StockCode[sh600329] StockName[中新药业] Industry[医药行业] 
+FocusDate[2015-01-06], FocusPrice[15.66] 
+
+StockCode[sh600343] StockName[航天动力] Industry[机械行业] 
+FocusDate[2015-02-25], FocusPrice[19.14] 
+
+StockCode[sh600393] StockName[东华实业] Industry[房地产] 
+FocusDate[2015-01-08], FocusPrice[7.69] 
+BuyDate[2015-01-19] BuyPrice[6.92] 
+SellDate[2015-02-04] SellPrice[7.69]
+
+StockCode[sh600462] StockName[石岘纸业] Industry[造纸印刷] 
+FocusDate[2015-01-19], FocusPrice[6.32] 
+
+StockCode[sh600528] StockName[中铁二局] Industry[工程建设] 
+FocusDate[2015-01-27], FocusPrice[14.39] 
+
+StockCode[sh600676] StockName[交运股份] Industry[汽车行业] 
+FocusDate[2015-01-23], FocusPrice[9.78] 
+
+StockCode[sh600680] StockName[上海普天] Industry[通讯行业] 
+FocusDate[2015-01-12], FocusPrice[16.48] 
+
+StockCode[sh600722] StockName[金牛化工] Industry[化工行业] 
+FocusDate[2015-01-14], FocusPrice[5.3] 
+
+StockCode[sh600885] StockName[宏发股份] Industry[玻璃陶瓷] 
+FocusDate[2015-02-16], FocusPrice[25.0] 
+
+StockCode[sh600982] StockName[宁波热电] Industry[电力行业] 
+FocusDate[2015-01-05], FocusPrice[8.3] 
+
+StockCode[sh603636] StockName[南威软件] Industry[电子信息] 
+FocusDate[2015-02-03], FocusPrice[45.66] 
+BuyDate[2015-02-06] BuyPrice[41.09] 
+SellDate[2015-02-13] SellPrice[45.66]
+
+StockCode[sz000526] StockName[银润投资] Industry[房地产] 
+FocusDate[2015-02-04], FocusPrice[22.1] 
+
+StockCode[sz000712] StockName[锦龙股份] Industry[券商信托] 
+FocusDate[2015-01-20], FocusPrice[30.48] 
+
+StockCode[sz000717] StockName[韶钢松山] Industry[钢铁行业] 
+FocusDate[2015-01-29], FocusPrice[3.31] 
+
+StockCode[sz000720] StockName[新能泰山] Industry[电力行业] 
+FocusDate[2015-01-07], FocusPrice[4.91] 
+BuyDate[2015-01-12] BuyPrice[4.42] 
+SellDate[2015-01-30] SellPrice[4.91]
+
+StockCode[sz002030] StockName[达安基因] Industry[医药行业] 
+FocusDate[2015-01-13], FocusPrice[21.87] 
+
+StockCode[sz002068] StockName[黑猫股份] Industry[化工行业] 
+FocusDate[2015-02-02], FocusPrice[8.91] 
+BuyDate[2015-02-11] BuyPrice[8.02] 
+SellDate[2015-02-12] SellPrice[8.91]
+
+StockCode[sz002207] StockName[准油股份] Industry[石油行业] 
+FocusDate[2015-01-09], FocusPrice[14.98] 
+BuyDate[2015-01-12] BuyPrice[13.48] 
+SellDate[2015-02-17] SellPrice[14.98]
+
+StockCode[sz002219] StockName[恒康医疗] Industry[医药行业] 
+FocusDate[2015-02-13], FocusPrice[25.05] 
+
+StockCode[sz002486] StockName[嘉麟杰] Industry[纺织服装] 
+FocusDate[2015-01-30], FocusPrice[4.88] 
+BuyDate[2015-02-06] BuyPrice[4.39] 
+
+StockCode[sz002599] StockName[盛通股份] Industry[造纸印刷] 
+FocusDate[2015-01-28], FocusPrice[16.61] 
+
+StockCode[sz002641] StockName[永高股份] Industry[塑胶制品] 
+FocusDate[2015-02-06], FocusPrice[10.96] 
+
+StockCode[sz002654] StockName[万润科技] Industry[电子元件] 
+FocusDate[2015-01-22], FocusPrice[15.53] 
+BuyDate[2015-02-02] BuyPrice[13.98] 
+
+StockCode[sz002717] StockName[岭南园林] Industry[木业家具] 
+FocusDate[2015-02-05], FocusPrice[28.53] 
+
+StockCode[sz002727] StockName[一心堂] Industry[医药行业] 
+FocusDate[2015-02-10], FocusPrice[49.98] 
+
+StockCode[sz300255] StockName[常山药业] Industry[医药行业] 
+FocusDate[2015-02-11], FocusPrice[34.7] 
+
+[buyRate]0.9-[sellRate]1.0-[focus]31-[buy]10-[sell]7
