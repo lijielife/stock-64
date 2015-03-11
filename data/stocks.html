@@ -1,0 +1,185 @@
+<!DOCTYPE >
+<html>
+<head>
+<title>stocks</title>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+<script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../js/knockout-3.3.0.js"></script>
+<script type="text/javascript" src="../js/purl.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default"
+                    onclick="showAll();">显示全部</button>
+                <button type="button" class="btn btn-default"
+                    onclick="showPrepareBuy();">显示准备买的</button>
+                <button type="button" class="btn btn-default"
+                    onclick="showPrepareSell();">显示准备卖的</button>
+                <button type="button" class="btn btn-default"
+                    onclick="showSelled();">显示已经卖的</button>
+                <a class="btn btn-link"
+                    href="stocks.html?json=statistics.b[0.89].s[1.0].json">0.89-1.0</a>
+                <a class="btn btn-link"
+                    href="stocks.html?json=statistics.b[0.9].s[1.0].json">0.9-1.0</a>
+                <a class="btn btn-link"
+                    href="stocks.html?json=statistics.b[0.9].s[1.01].json">0.9-1.01</a>
+                <a class="btn btn-link"
+                    href="stocks.html?json=statistics.b[0.89].s[1.01].json">0.89-1.01</a>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Stock Code</th>
+                        <th>Stock Name</th>
+                        <th>Industry</th>
+                        <th>Close Price</th>
+                        <th>Low Price</th>
+                        <th>Focus Date</th>
+                        <th>Focus Price</th>
+                        <th>Expected Buy Price</th>
+                        <th>Expected Sell Price</th>
+                        <th>Buy Date</th>
+                        <th>Actual Buy Price</th>
+                        <th>Sell Date</th>
+                        <th>Actual Sell Price</th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: { data: $root }">
+                    <tr>
+                        <td data-bind="text: ($index()+1)"></td>
+                        <td><a target="_blank"
+                            data-bind="text: stockCode, attr: { href: ( 'http://finance.sina.com.cn/realstock/company/'+stockCode+'/nc.shtml' ) }"></a></td>
+                        <td data-bind="text: stockName"></td>
+                        <td data-bind="text: industry"></td>
+                        <td data-bind="text: closePrice"
+                            style="color: blue;"></td>
+                        <td data-bind="text: lowPrice"
+                            style="color: blue;"></td>
+                        <td data-bind="text: focusDate"></td>
+                        <td data-bind="text: focusClose"
+                            style="color: blue;"></td>
+
+                        <td data-bind="text: expectedBuyPrice"
+                            style="color: green"></td>
+                        <td data-bind="text: expectedSellPrice"
+                            style="color: red;"></td>
+                        <td data-bind="text: buyDate"></td>
+                        <td
+                            data-bind="text: actualBuyPrice, style: { color: ( '' == buyDate ? 'red' : '' ) }"></td>
+                        <td data-bind="text: sellDate"></td>
+                        <td
+                            data-bind="text: actualSellPrice, style: { color: ( '' == sellDate ? 'red' : '' ) }"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript">
+					var stocks = ko.observableArray();
+					var allStocks = [];
+
+					function showAll() {
+						stocks.removeAll();
+						s = [];
+						jQuery(allStocks).each(function(index, stock) {
+							//stocks.push(stock);
+							s.push(stock);
+						});
+						stocks(s);
+					}
+					function showPrepareBuy() {
+						stocks.removeAll();
+						s = [];
+						jQuery(allStocks).each(
+								function(index, stock) {
+									if (stock.buyDate == ""
+											&& stock.actualBuyPrice >= 0.9) {
+										//stocks.push(stock);
+										s.push(stock);
+									}
+								});
+						stocks(s);
+					}
+					function showPrepareSell() {
+						stocks.removeAll();
+						s = [];
+						jQuery(allStocks).each(function(index, stock) {
+							if (stock.buyDate != "" && stock.sellDate == "") {
+								//stocks.push(stock);
+								s.push(stock);
+							}
+						});
+						stocks(s);
+					}
+					function showSelled() {
+						stocks.removeAll();
+						s = [];
+						jQuery(allStocks).each(function(index, stock) {
+							if (stock.sellDate != "") {
+								//stocks.push(stock);
+								s.push(stock);
+							}
+						});
+						stocks(s);
+					}
+
+					ko.applyBindings(stocks);
+					var url = purl();
+					var jsonfile = url.param("json")
+							|| "statistics.b[0.9].s[1.0].json";
+
+					jQuery
+							.get(
+									jsonfile,
+									function(data) {
+										var buyQuantity = 0;
+										var sellQuantity = 0;
+										jQuery(data)
+												.each(
+														function(index, stock) {
+															if (stock.buyDate) {
+																buyQuantity++;
+															}
+															if (stock.sellDate) {
+																sellQuantity++;
+															}
+															if (undefined == stock.buyDate) {
+																stock.buyDate = "";
+																stock.actualBuyPrice = (stock.expectedBuyPrice / stock.closePrice);
+																if (0 === stock.closePrice) {
+																	stock.actualBuyPrice = 1;
+																	stock.closePrice = stock.focusClose;
+																} else {
+																	stock.actualBuyPrice = stock.actualBuyPrice
+																			.toFixed(3);
+																}
+															}
+															if (undefined == stock.sellDate) {
+																stock.sellDate = "";
+																stock.actualSellPrice = (stock.expectedSellPrice / stock.closePrice)
+																		.toFixed(3);
+																if (stock.actualSellPrice == 0) {
+																	stock.actualSellPrice = 1;
+																}
+															}
+															allStocks
+																	.push(stock);
+														});
+										jQuery(
+												"<div class='row'> Buy ["
+														+ buyQuantity
+														+ "] Sell ["
+														+ sellQuantity
+														+ "]</div>").appendTo(
+												jQuery("div.container"));
+									}).done(function() {
+								showPrepareBuy();
+							});
+				</script>
+</body>
+</html>
