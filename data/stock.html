@@ -10,6 +10,30 @@
 </head>
 <body>
     <div id="container" style="height: 400px; min-width: 310px"></div>
+    <div class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Date</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                    <th>High</th>
+                    <th>Low</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: { data: $root }">
+                <tr>
+                    <td data-bind="text: ($index()+1)"></td>
+                    <td data-bind="text: $data[6]"></td>
+                    <td data-bind="text: $data[1]"></td>
+                    <td data-bind="text: $data[4]"></td>
+                    <td data-bind="text: $data[2]"></td>
+                    <td data-bind="text: $data[3]"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <script type="text/javascript">
                     var url = purl();
                     var jsonfile = url.param("json");
@@ -22,6 +46,7 @@
 
                         var data = stock.data;
                         data.pop();
+                        ko.applyBindings(data.reverse());
 
                         // split the data set into ohlc and volume
                         var ohlc = [], volume = [], dataLength = data.length;
