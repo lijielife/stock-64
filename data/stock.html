@@ -21,6 +21,7 @@
                     $.getJSON(jsonfile, function(stock) {
 
                         var data = stock.data;
+                        data.pop();
 
                         // split the data set into ohlc and volume
                         var ohlc = [], volume = [], dataLength = data.length;
