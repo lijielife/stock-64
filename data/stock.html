@@ -46,7 +46,9 @@
 
                         var data = stock.data;
                         data.pop();
-                        ko.applyBindings(data.reverse());
+                        var copy = data.slice();
+                        copy.reverse();
+                        ko.applyBindings(copy);
 
                         // split the data set into ohlc and volume
                         var ohlc = [], volume = [], dataLength = data.length;
