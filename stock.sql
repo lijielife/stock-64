@@ -474,7 +474,7 @@ SELECT COUNT(1) FROM `MarketHistory` WHERE `PreVolume` IS NULL;
 UPDATE `MarketHistory` SET `VolumeRate` = `Volume` / `PreVolume` WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
 SELECT COUNT(1) FROM `MarketHistory` WHERE `VolumeRate` IS NULL;
 
--- 关注日期 1156
+-- 关注日期 1450
 SELECT * FROM `nanhuacrabstore` ORDER BY `FocusDate` DESC, `StockCode`;
 
 SELECT `MarketHistory`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
@@ -484,17 +484,36 @@ AND `MarketDate` = '2015-03-10' AND `MarketHistory`.`StockCode` NOT LIKE 'sz3%'
 ORDER BY `VolumeRate` DESC, `MarketHistory`.`StockCode`
 LIMIT 0, 10;
 
--- 买入日期 486 spend 56 seconds
+-- 买入日期 681 spend 56 seconds
 SELECT COUNT(1), COUNT(`BuyDate`) FROM `nanhuacrabstore`;
 
--- 卖出日期 458 spend 6 seconds
+-- 卖出日期 643 spend 6 seconds
 SELECT COUNT(1), COUNT(`BuyDate`), COUNT(`SellDate`) FROM `nanhuacrabstore`;
-SELECT COUNT(1) FROM `nanhuacrabstore` WHERE `BuyDate` IS NOT NULL AND `SellDate` IS NULL;
+SELECT `BuyRate`, `SellRate` FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
+SELECT `BuyRate`, `SellRate`, COUNT(1) FROM `nanhuacrabstore` WHERE `BuyDate` IS NOT NULL AND `SellDate` IS NULL GROUP BY `BuyRate`, `SellRate`;
 
 -- 最新价格 spend 55 seconds
 
 
--- output
+-- output spend 81 seconds
+SELECT * FROM `MarketHistory` WHERE `StockCode` = 'sh600029' AND `MarketDate` = '2015-03-03';
 UPDATE `nanhuacrabstore` SET `Close` = 0 WHERE `SellDate` IS NOT NULL;
 SELECT * FROM `nanhuacrabstore` WHERE `StockCode` IN ( 'sh600212', 'sh603636' );
 SELECT `BuyRate`, `SellRate` FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
+
+-- -------------------------------------------------------------------------------------------------
+
+SELECT `Month`, COUNT(1) FROM (
+SELECT *, DATE_FORMAT(`BuyDate`, '%Y-%m') AS `Month` FROM `nanhuacrabstore` WHERE `BuyRate` = 0.9 AND `SellRate` = 1 AND `BuyDate` IS NOT NULL ) AS T
+GROUP BY `Month`
+ORDER BY `Month`;
+
+SELECT `Month`, COUNT(1) FROM (
+SELECT *, DATE_FORMAT(`SellDate`, '%Y-%m') AS `Month` FROM `nanhuacrabstore` WHERE `BuyRate` = 0.9 AND `SellRate` = 1 AND `SellDate` IS NOT NULL ) AS T
+GROUP BY `Month`
+ORDER BY `Month`;
+
+SELECT `FocusMonth`, COUNT(`BuyDate`), COUNT(`SellDate`) FROM (
+SELECT *, DATE_FORMAT(`FocusDate`, '%Y-%m') AS `FocusMonth` FROM `nanhuacrabstore` WHERE `BuyRate` = 0.9 AND `SellRate` = 1 ) AS T
+GROUP BY `FocusMonth`
+ORDER BY `FocusMonth`;
