@@ -53,7 +53,7 @@
                 </thead>
                 <tbody data-bind="foreach: { data: $root }">
                     <tr>
-                        <td data-bind="text: ($index()+1)"></td>
+                        <td><a target="_blank" data-bind="text: ($index()+1), attr: { href: ( 'stock.html?json=stock.'+buyRate+'.'+sellRate+'.'+stockCode+'.'+focusDate+'.json' ) }"></a></td>
                         <td><a target="_blank"
                             data-bind="text: stockCode, attr: { href: ( 'http://finance.sina.com.cn/realstock/company/'+stockCode+'/nc.shtml' ) }"></a></td>
                         <td><a target="_blank"
