@@ -24,17 +24,47 @@
             </thead>
             <tbody data-bind="foreach: { data: $root }">
                 <tr>
-                    <td data-bind="text: ($index()+1)"></td>
-                    <td data-bind="text: $data[6]"></td>
-                    <td data-bind="text: $data[1]"></td>
-                    <td data-bind="text: $data[4]"></td>
-                    <td data-bind="text: $data[2]"></td>
-                    <td data-bind="text: $data[3]"></td>
+                    <td data-bind="text: getRowSequence(($index()+1),$data[6]), style: { color: getColor($data[6]) }"></td>
+                    <td
+                        data-bind="text: $data[6], style: { color: getColor($data[6]) }"></td>
+                    <td
+                        data-bind="text: $data[1], style: { color: getColor($data[6]) }"></td>
+                    <td
+                        data-bind="text: $data[4], style: { color: getColor($data[6]) }"></td>
+                    <td
+                        data-bind="text: $data[2], style: { color: getColor($data[6]) }"></td>
+                    <td
+                        data-bind="text: $data[3], style: { color: getColor($data[6]) }"></td>
                 </tr>
             </tbody>
         </table>
     </div>
     <script type="text/javascript">
+                    function getRowSequence(rowindex,date) {
+                        if (window.stock.focusdate == date) {
+                            return window.stock.focusprice;
+                        }
+                        if (window.stock.buydate == date) {
+                            return window.stock.buyprice;
+                        }
+                        if (window.stock.selldate == date) {
+                            return window.stock.sellprice;
+                        }
+                        return rowindex;
+                    }
+                    function getColor(date) {
+                        if (window.stock.focusdate == date) {
+                            return 'blue';
+                        }
+                        if (window.stock.buydate == date) {
+                            return 'green';
+                        }
+                        if (window.stock.selldate == date) {
+                            return 'red';
+                        }
+                        return '';
+                    }
+
                     var url = purl();
                     var jsonfile = url.param("json");
 
@@ -43,7 +73,7 @@
                     }
 
                     $.getJSON(jsonfile, function(stock) {
-
+                        window.stock = stock;
                         var data = stock.data;
                         data.pop();
                         var copy = data.slice();
@@ -72,58 +102,66 @@
                         ], [ 'month', [ 1, 2, 3, 4, 6 ] ] ];
 
                         // create the chart
-                        $('#container').highcharts('StockChart', {
+                        $('#container')
+                                .highcharts(
+                                        'StockChart',
+                                        {
 
-                            rangeSelector : {
-                                inputEnabled : $('#container').width() > 480,
-                                selected : 1
-                            },
+                                            rangeSelector : {
+                                                inputEnabled : $('#container')
+                                                        .width() > 480,
+                                                selected : 1
+                                            },
 
-                            title : {
-                                text : stock.stockname + ' Historical'
-                            },
+                                            title : {
+                                                text : stock.stockname + ' ['
+                                                        + stock.focusdate
+                                                        + '] [' + stock.buydate
+                                                        + '] ['
+                                                        + stock.selldate + ']'
+                                            },
 
-                            yAxis : [ {
-                                labels : {
-                                    align : 'right',
-                                    x : -3
-                                },
-                                title : {
-                                    text : 'OHLC'
-                                },
-                                height : '60%',
-                                lineWidth : 2
-                            }, {
-                                labels : {
-                                    align : 'right',
-                                    x : -3
-                                },
-                                title : {
-                                    text : 'Volume'
-                                },
-                                top : '65%',
-                                height : '35%',
-                                offset : 0,
-                                lineWidth : 2
-                            } ],
+                                            yAxis : [ {
+                                                labels : {
+                                                    align : 'right',
+                                                    x : -3
+                                                },
+                                                title : {
+                                                    text : 'K线'
+                                                },
+                                                height : '60%',
+                                                lineWidth : 2
+                                            }, {
+                                                labels : {
+                                                    align : 'right',
+                                                    x : -3
+                                                },
+                                                title : {
+                                                    text : 'Volume'
+                                                },
+                                                top : '65%',
+                                                height : '35%',
+                                                offset : 0,
+                                                lineWidth : 2
+                                            } ],
 
-                            series : [ {
-                                type : 'candlestick',
-                                name : stock.stockname,
-                                data : ohlc,
-                                dataGrouping : {
-                                    units : groupingUnits
-                                }
-                            }, {
-                                type : 'column',
-                                name : 'Volume',
-                                data : volume,
-                                yAxis : 1,
-                                dataGrouping : {
-                                    units : groupingUnits
-                                }
-                            } ]
-                        });
+                                            series : [ {
+                                                type : 'candlestick',
+                                                name : stock.stockname,
+                                                data : ohlc,
+                                                dataGrouping : {
+                                                    units : groupingUnits
+                                                }
+                                            }, {
+                                                type : 'column',
+                                                name : 'Volume',
+                                                data : volume,
+                                                yAxis : 1,
+                                                dataGrouping : {
+                                                    units : groupingUnits
+                                                }
+                                            } ]
+                                        });
                     });
                 </script>
 </body>
