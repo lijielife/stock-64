@@ -496,9 +496,9 @@ SELECT `BuyRate`, `SellRate`, COUNT(1) FROM `nanhuacrabstore` WHERE `BuyDate` IS
 
 
 -- output spend 81 seconds
-SELECT * FROM `MarketHistory` WHERE `StockCode` = 'sh600029' AND `MarketDate` = '2015-03-03';
+SELECT * FROM `MarketHistory` WHERE `StockCode` = 'sz002114' AND `MarketDate` > '2014-10-08' ORDER BY `MarketDate` DESC;
 UPDATE `nanhuacrabstore` SET `Close` = 0 WHERE `SellDate` IS NOT NULL;
-SELECT * FROM `nanhuacrabstore` WHERE `StockCode` IN ( 'sh600212', 'sh603636' );
+SELECT * FROM `nanhuacrabstore` WHERE `StockCode` IN ( 'sz002114' );
 SELECT `BuyRate`, `SellRate` FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
 
 -- -------------------------------------------------------------------------------------------------
