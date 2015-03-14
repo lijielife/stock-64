@@ -123,8 +123,8 @@ SELECT * FROM `MarketHistory` WHERE `MarketDate` NOT IN ( SELECT `MarketDate` FR
 -- init spend 43 seconds
 -- buy spend 61 seconds 
 -- sell spend 46 seconds
--- close spend 62 seconds
--- out spend 31 seconds
+-- close spend 29 seconds
+-- out spend 57 seconds
 SELECT `BuyRate`, `SellRate`, COUNT(1), COUNT(`BuyDate`) / COUNT(1), COUNT(`BuyDate`), COUNT(`SellDate`), COUNT(`SellDate`) / COUNT(`BuyDate`), COUNT(`Close`)
 FROM `stock`.`nanhuacrabstore_2007` GROUP BY `BuyRate`, `SellRate`;
 
