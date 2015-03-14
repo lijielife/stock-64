@@ -19,12 +19,14 @@ USE stock;
 
 DROP TABLE ``;
 DESC `MarketHistory`;
+SHOW CREATE TABLE `stock`;
 SHOW CREATE TABLE `MarketHistory`;
+SHOW CREATE TABLE `nanhuacrabstore`;
 SHOW TABLE STATUS LIKE 'MarketHistory';
 SHOW TABLE STATUS LIKE 'nanhuacrabstore';
 SHOW COLUMNS FROM `stock`;
 
-
+ALTER TABLE `stock` engine = myisam;
 
 CREATE TABLE `StockPriceStage`
 (
@@ -457,7 +459,7 @@ VALUES( 'sh600038', '中直股份', '航天航空', '2014-01-02', '27.6', '28.4'
 USE stock;
 -- 2666
 SELECT COUNT(1) FROM `stock`;
-SELECT * FROM `MarketHistory` WHERE `StockCode` = 'sz000416' ORDER BY `MarketDate` DESC;
+SELECT * FROM `MarketHistory` WHERE `StockCode` = 'sz000416' ORDER BY `MarketDate`;
 
 -- 查询下载了多少数据 spend 427 seconds
 SELECT DISTINCT `MarketDate`, COUNT(1) FROM MarketHistory GROUP BY `MarketDate` ORDER BY `MarketDate` DESC;
@@ -488,12 +490,12 @@ LIMIT 0, 10;
 SELECT COUNT(1), COUNT(`BuyDate`) FROM `nanhuacrabstore`;
 
 -- 卖出日期 643 spend 6 seconds
-SELECT COUNT(1), COUNT(`BuyDate`), COUNT(`SellDate`) FROM `nanhuacrabstore`;
+SELECT `BuyRate`, `SellRate`, COUNT(1), COUNT(`BuyDate`), COUNT(`SellDate`), COUNT(`SellDate`) / COUNT(`BuyDate`)
+FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
 SELECT `BuyRate`, `SellRate` FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
 SELECT `BuyRate`, `SellRate`, COUNT(1) FROM `nanhuacrabstore` WHERE `BuyDate` IS NOT NULL AND `SellDate` IS NULL GROUP BY `BuyRate`, `SellRate`;
 
 -- 最新价格 spend 55 seconds
-
 
 -- output spend 81 seconds
 SELECT * FROM `MarketHistory` WHERE `StockCode` = 'sz002114' AND `MarketDate` > '2014-10-08' ORDER BY `MarketDate` DESC;
@@ -517,3 +519,23 @@ SELECT `FocusMonth`, COUNT(`BuyDate`), COUNT(`SellDate`) FROM (
 SELECT *, DATE_FORMAT(`FocusDate`, '%Y-%m') AS `FocusMonth` FROM `nanhuacrabstore` WHERE `BuyRate` = 0.9 AND `SellRate` = 1 ) AS T
 GROUP BY `FocusMonth`
 ORDER BY `FocusMonth`;
+-- ------------------------------------------------------------------------------------------
+use stock;
+DESCRIBE `nanhuacrabstore`;
+DESCRIBE `markethistory`;
+SHOW CREATE TABLE `nanhuacrabstore`;
+SHOW CREATE TABLE `markethistory`;
+
+INSERT INTO `stock`.`nanhuacrabstore_2013` ( StockCode,StockName,Industry,FocusDate,FocusOpen,FocusClose,FocusHign,FocusLow,BuyRate,ExpectedBuyPrice,SellRate,ExpectedSellPrice,BuyDate,BuyOpen,BuyClose,BuyHign,BuyLow,SellDate,SellOpen,SellClose,SellHign,SellLow,FocusVolumeRate,Close,ActualSellPrice,ActualBuyPrice,Open,Low,Hign )
+SELECT StockCode,StockName,Industry,FocusDate,FocusOpen,FocusClose,FocusHign,FocusLow,BuyRate,ExpectedBuyPrice,SellRate,ExpectedSellPrice,BuyDate,BuyOpen,BuyClose,BuyHign,BuyLow,SellDate,SellOpen,SellClose,SellHign,SellLow,FocusVolumeRate,Close,ActualSellPrice,ActualBuyPrice,Open,Low,Hign FROM `test`.`nanhuacrabstore`;
+
+SELECT COUNT(1) FROM `test`.`nanhuacrabstore`;
+SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2013`;
+SELECT COUNT(1), COUNT(`Close`), COUNT(`BuyDate`), COUNT(`SellDate`) FROM `stock`.`nanhuacrabstore_2013`;
+
+INSERT INTO `stock`.`markethistory_2013` ( MarketDate, Open, Close, Hign, Low, Volume, Amount, HignRate, LowRate, PreClose, VolumeRate, StockCode, PreVolume, Rate, Turnover, PreRate )
+SELECT MarketDate, Open, Close, Hign, Low, Volume, Amount, HignRate, LowRate, PreClose, VolumeRate, StockCode, PreVolume, Rate, Turnover, PreRate FROM `test`.`markethistory`;
+
+SELECT COUNT(1) FROM `test`.`markethistory`;
+SELECT COUNT(1) FROM `stock`.`markethistory_2013`;
+
