@@ -24,12 +24,12 @@ WHERE `StockCode` < '600000';
 
 SELECT MIN(`StockCode`), MAX(`StockCode`) FROM `stock`.`MarketHistory_2010`;
 
--- 579351
+-- 497841
 SELECT COUNT(1) FROM `stock`.`MarketHistory_2010`;
 
 SELECT MIN(`MarketDate`), MAX(`MarketDate`) FROM `stock`.`MarketHistory_2010`;
 
--- 查询结果 2271
+-- 查询结果 2007
 SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2010`;
 SELECT COUNT(1) FROM ( SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2010` ) AS T;
 
@@ -54,13 +54,13 @@ UPDATE `stock`.`MarketHistory_2010`
 SET `VolumeRate` = `Volume` / `PreVolume` 
 WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
 
--- 4542 spend 208 seconds
+-- 4014 spend 208 seconds
 SELECT COUNT(1) FROM `stock`.`MarketHistory_2010` WHERE `PreRate` IS NULL;
 
--- 历史纪录的天数 282
+-- 历史纪录的天数 285
 SELECT COUNT(1) FROM ( SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2010` ) AS T;
 
--- 历史纪录中有效的天数 280
+-- 历史纪录中有效的天数 283
 SELECT DISTINCT(`MarketDate`)
 FROM `stock`.`MarketHistory_2010` 
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
@@ -77,7 +77,7 @@ SELECT `StockCode`, `MarketDate`, `Close`, `PreClose`, `Volume`, `PreVolume`, `R
 FROM `stock`.`MarketHistory_2010` WHERE `StockCode` = 'sz000678' 
 ORDER BY `MarketDate`;
 
--- 历史纪录中有效的天数 1400 5X
+-- 历史纪录中有效的天数 1415 5X
 SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2010`;
 
 -- 2666
