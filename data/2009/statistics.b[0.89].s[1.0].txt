@@ -1,0 +1,1298 @@
+StockCode[sh600559] StockName[老白干酒] Industry[酿酒行业] 
+FocusDate[2010-01-29] FocusPrice[23.54] ExpectedBuyPrice[20.95] ExpectedSellPrice[23.54] 
+ClosePrice[23.54] BuyPriceRate[0.8899745114698385] 
+
+StockCode[sh600305] StockName[恒顺醋业] Industry[食品行业] 
+FocusDate[2010-01-28] FocusPrice[13.37] ExpectedBuyPrice[11.9] ExpectedSellPrice[13.37] 
+ClosePrice[13.9] BuyPriceRate[0.8561151079136691] 
+
+StockCode[sh600750] StockName[江中药业] Industry[医药行业] 
+FocusDate[2010-01-27] FocusPrice[27.9] ExpectedBuyPrice[24.83] ExpectedSellPrice[27.9] 
+ClosePrice[27.8] BuyPriceRate[0.8931654676258992] 
+
+StockCode[sh600647] StockName[同达创业] Industry[综合行业] 
+FocusDate[2010-01-26] FocusPrice[20.34] ExpectedBuyPrice[18.1] ExpectedSellPrice[20.34] 
+BuyDate[2010-01-29] ExpectedBuyPrice[18.1] ActualBuyPrice[18.1] 
+ClosePrice[18.66] SellPriceRate[1.090032154340836] 
+
+StockCode[sz002105] StockName[信隆实业] Industry[交运设备] 
+FocusDate[2010-01-25] FocusPrice[8.16] ExpectedBuyPrice[7.26] ExpectedSellPrice[8.16] 
+BuyDate[2010-01-27] ExpectedBuyPrice[7.26] ActualBuyPrice[7.26] 
+ClosePrice[7.35] SellPriceRate[1.110204081632653] 
+
+StockCode[sz002172] StockName[澳洋科技] Industry[化纤行业] 
+FocusDate[2010-01-22] FocusPrice[15.1] ExpectedBuyPrice[13.44] ExpectedSellPrice[15.1] 
+BuyDate[2010-01-26] ExpectedBuyPrice[13.44] ActualBuyPrice[13.44] 
+ClosePrice[13.4] SellPriceRate[1.126865671641791] 
+
+StockCode[sh600620] StockName[天宸股份] Industry[交运物流] 
+FocusDate[2010-01-21] FocusPrice[8.06] ExpectedBuyPrice[7.17] ExpectedSellPrice[8.06] 
+BuyDate[2010-01-26] ExpectedBuyPrice[7.17] ActualBuyPrice[7.17] 
+ClosePrice[7.09] SellPriceRate[1.1368124118476728] 
+
+StockCode[sh600757] StockName[长江传媒] Industry[文化传媒] 
+FocusDate[2010-01-20] FocusPrice[6.08] ExpectedBuyPrice[5.41] ExpectedSellPrice[6.08] 
+BuyDate[2010-01-27] ExpectedBuyPrice[5.41] ActualBuyPrice[5.41] 
+ClosePrice[5.53] SellPriceRate[1.0994575045207957] 
+
+StockCode[sh600615] StockName[丰华股份] Industry[房地产] 
+FocusDate[2010-01-19] FocusPrice[13.39] ExpectedBuyPrice[11.92] ExpectedSellPrice[13.39] 
+BuyDate[2010-01-26] ExpectedBuyPrice[11.92] ActualBuyPrice[11.92] 
+ClosePrice[10.78] SellPriceRate[1.2421150278293136] 
+
+StockCode[sz000790] StockName[华神集团] Industry[综合行业] 
+FocusDate[2010-01-18] FocusPrice[10.64] ExpectedBuyPrice[9.47] ExpectedSellPrice[10.64] 
+ClosePrice[10.9] BuyPriceRate[0.8688073394495414] 
+
+StockCode[sh600866] StockName[星湖科技] Industry[食品行业] 
+FocusDate[2010-01-15] FocusPrice[13.94] ExpectedBuyPrice[12.41] ExpectedSellPrice[13.94] 
+ClosePrice[13.44] BuyPriceRate[0.9233630952380952] 
+
+StockCode[sh600131] StockName[岷江水电] Industry[电力行业] 
+FocusDate[2010-01-14] FocusPrice[6.51] ExpectedBuyPrice[5.79] ExpectedSellPrice[6.51] 
+ClosePrice[5.98] BuyPriceRate[0.9682274247491638] 
+
+StockCode[sz000677] StockName[恒天海龙] Industry[化纤行业] 
+FocusDate[2010-01-13] FocusPrice[9.15] ExpectedBuyPrice[8.14] ExpectedSellPrice[9.15] 
+BuyDate[2010-01-26] ExpectedBuyPrice[8.14] ActualBuyPrice[8.14] 
+ClosePrice[7.76] SellPriceRate[1.1791237113402062] 
+
+StockCode[sh600668] StockName[尖峰集团] Industry[水泥建材] 
+FocusDate[2010-01-12] FocusPrice[6.83] ExpectedBuyPrice[6.08] ExpectedSellPrice[6.83] 
+ClosePrice[6.66] BuyPriceRate[0.9129129129129129] 
+
+StockCode[sz002287] StockName[奇正藏药] Industry[医药行业] 
+FocusDate[2010-01-11] FocusPrice[24.98] ExpectedBuyPrice[22.23] ExpectedSellPrice[24.98] 
+BuyDate[2010-01-27] ExpectedBuyPrice[22.23] ActualBuyPrice[22.23] 
+ClosePrice[22.38] SellPriceRate[1.1161751563896336] 
+
+StockCode[sz001696] StockName[宗申动力] Industry[交运设备] 
+FocusDate[2010-01-08] FocusPrice[20.1] ExpectedBuyPrice[17.89] ExpectedSellPrice[20.1] 
+BuyDate[2010-01-26] ExpectedBuyPrice[17.89] ActualBuyPrice[17.89] 
+ClosePrice[18.18] SellPriceRate[1.1056105610561058] 
+
+StockCode[sh600158] StockName[中体产业] Industry[房地产] 
+FocusDate[2010-01-07] FocusPrice[9.14] ExpectedBuyPrice[8.13] ExpectedSellPrice[9.14] 
+ClosePrice[9.84] BuyPriceRate[0.826219512195122] 
+
+StockCode[sz002240] StockName[威华股份] Industry[有色金属] 
+FocusDate[2010-01-06] FocusPrice[12.62] ExpectedBuyPrice[11.23] ExpectedSellPrice[12.62] 
+ClosePrice[12.5] BuyPriceRate[0.8984000000000001] 
+
+StockCode[sh600740] StockName[山西焦化] Industry[煤炭采选] 
+FocusDate[2010-01-05] FocusPrice[10.19] ExpectedBuyPrice[9.07] ExpectedSellPrice[10.19] 
+BuyDate[2010-01-22] ExpectedBuyPrice[9.07] ActualBuyPrice[9.07] 
+ClosePrice[8.16] SellPriceRate[1.2487745098039216] 
+
+StockCode[sh600436] StockName[片仔癀] Industry[医药行业] 
+FocusDate[2010-01-04] FocusPrice[40.51] ExpectedBuyPrice[36.05] ExpectedSellPrice[40.51] 
+ClosePrice[38.58] BuyPriceRate[0.9344219803006739] 
+
+StockCode[sh600730] StockName[中国高科] Industry[综合行业] 
+FocusDate[2009-12-31] FocusPrice[8.22] ExpectedBuyPrice[7.32] ExpectedSellPrice[8.22] 
+ClosePrice[7.85] BuyPriceRate[0.9324840764331211] 
+
+StockCode[sz000039] StockName[中集集团] Industry[交运物流] 
+FocusDate[2009-12-30] FocusPrice[13.2] ExpectedBuyPrice[11.75] ExpectedSellPrice[13.2] 
+ClosePrice[13.69] BuyPriceRate[0.8582907231555881] 
+
+StockCode[sz002183] StockName[怡 亚 通] Industry[国际贸易] 
+FocusDate[2009-12-29] FocusPrice[16.94] ExpectedBuyPrice[15.08] ExpectedSellPrice[16.94] 
+ClosePrice[15.67] BuyPriceRate[0.9623484365028717] 
+
+StockCode[sh600310] StockName[桂东电力] Industry[电力行业] 
+FocusDate[2009-12-28] FocusPrice[25.87] ExpectedBuyPrice[23.02] ExpectedSellPrice[25.87] 
+ClosePrice[24.59] BuyPriceRate[0.9361529076860512] 
+
+StockCode[sh600970] StockName[中材国际] Industry[水泥建材] 
+FocusDate[2009-12-25] FocusPrice[37.23] ExpectedBuyPrice[33.13] ExpectedSellPrice[37.23] 
+ClosePrice[35.02] BuyPriceRate[0.9460308395202741] 
+
+StockCode[sh600425] StockName[青松建化] Industry[水泥建材] 
+FocusDate[2009-12-24] FocusPrice[20.33] ExpectedBuyPrice[18.09] ExpectedSellPrice[20.33] 
+ClosePrice[22.32] BuyPriceRate[0.8104838709677419] 
+
+StockCode[sh600784] StockName[鲁银投资] Industry[钢铁行业] 
+FocusDate[2009-12-23] FocusPrice[8.81] ExpectedBuyPrice[7.84] ExpectedSellPrice[8.81] 
+ClosePrice[8.45] BuyPriceRate[0.927810650887574] 
+
+StockCode[sz002295] StockName[精艺股份] Industry[有色金属] 
+FocusDate[2009-12-22] FocusPrice[24.65] ExpectedBuyPrice[21.94] ExpectedSellPrice[24.65] 
+BuyDate[2010-01-20] ExpectedBuyPrice[21.94] ActualBuyPrice[21.94] 
+ClosePrice[19.89] SellPriceRate[1.2393162393162391] 
+
+StockCode[sh600834] StockName[申通地铁] Industry[交运物流] 
+FocusDate[2009-12-21] FocusPrice[10.4] ExpectedBuyPrice[9.26] ExpectedSellPrice[10.4] 
+ClosePrice[15.37] BuyPriceRate[0.6024723487312947] 
+
+StockCode[sh600567] StockName[山鹰纸业] Industry[造纸印刷] 
+FocusDate[2009-12-18] FocusPrice[6.11] ExpectedBuyPrice[5.44] ExpectedSellPrice[6.11] 
+ClosePrice[6.55] BuyPriceRate[0.8305343511450383] 
+
+StockCode[sz000593] StockName[大通燃气] Industry[公用事业] 
+FocusDate[2009-12-17] FocusPrice[11.29] ExpectedBuyPrice[10.05] ExpectedSellPrice[11.29] 
+BuyDate[2009-12-21] ExpectedBuyPrice[10.05] ActualBuyPrice[10.0] 
+ClosePrice[9.25] SellPriceRate[1.2205405405405405] 
+
+StockCode[sz000531] StockName[穗恒运Ａ] Industry[电力行业] 
+FocusDate[2009-12-16] FocusPrice[18.34] ExpectedBuyPrice[16.32] ExpectedSellPrice[18.34] 
+BuyDate[2009-12-22] ExpectedBuyPrice[16.32] ActualBuyPrice[16.32] 
+ClosePrice[15.6] SellPriceRate[1.1756410256410257] 
+
+StockCode[sh600666] StockName[西南药业] Industry[医药行业] 
+FocusDate[2009-12-15] FocusPrice[12.34] ExpectedBuyPrice[10.98] ExpectedSellPrice[12.34] 
+BuyDate[2009-12-18] ExpectedBuyPrice[10.98] ActualBuyPrice[10.98] 
+SellDate[2010-01-18] ExpectedSellPrice[12.34] ActualSellPrice[12.34] 
+
+StockCode[sh600537] StockName[亿晶光电] Industry[材料行业] 
+FocusDate[2009-12-14] FocusPrice[21.8] ExpectedBuyPrice[19.4] ExpectedSellPrice[21.8] 
+ClosePrice[23.57] BuyPriceRate[0.8230801866779804] 
+
+StockCode[sz002086] StockName[东方海洋] Industry[农牧饲渔] 
+FocusDate[2009-12-11] FocusPrice[13.95] ExpectedBuyPrice[12.42] ExpectedSellPrice[13.95] 
+BuyDate[2009-12-18] ExpectedBuyPrice[12.42] ActualBuyPrice[12.42] 
+SellDate[2009-12-29] ExpectedSellPrice[13.95] ActualSellPrice[13.95] 
+
+StockCode[sz000738] StockName[中航动控] Industry[交运设备] 
+FocusDate[2009-12-10] FocusPrice[10.28] ExpectedBuyPrice[9.15] ExpectedSellPrice[10.28] 
+ClosePrice[10.93] BuyPriceRate[0.837145471180238] 
+
+StockCode[sz000062] StockName[深圳华强] Industry[电子元件] 
+FocusDate[2009-12-09] FocusPrice[11.77] ExpectedBuyPrice[10.48] ExpectedSellPrice[11.77] 
+BuyDate[2009-12-17] ExpectedBuyPrice[10.48] ActualBuyPrice[10.48] 
+ClosePrice[9.04] SellPriceRate[1.301991150442478] 
+
+StockCode[sz002154] StockName[报 喜 鸟] Industry[纺织服装] 
+FocusDate[2009-12-08] FocusPrice[21.78] ExpectedBuyPrice[19.38] ExpectedSellPrice[21.78] 
+ClosePrice[22.01] BuyPriceRate[0.8805088596092684] 
+
+StockCode[sh600615] StockName[丰华股份] Industry[房地产] 
+FocusDate[2009-12-07] FocusPrice[11.04] ExpectedBuyPrice[9.83] ExpectedSellPrice[11.04] 
+ClosePrice[10.78] BuyPriceRate[0.9118738404452691] 
+
+StockCode[sh601998] StockName[中信银行] Industry[银行] 
+FocusDate[2009-12-04] FocusPrice[7.27] ExpectedBuyPrice[6.47] ExpectedSellPrice[7.27] 
+ClosePrice[6.93] BuyPriceRate[0.9336219336219336] 
+
+StockCode[sh600354] StockName[敦煌种业] Industry[农牧饲渔] 
+FocusDate[2009-12-03] FocusPrice[20.69] ExpectedBuyPrice[18.41] ExpectedSellPrice[20.69] 
+BuyDate[2009-12-17] ExpectedBuyPrice[18.41] ActualBuyPrice[18.41] 
+ClosePrice[18.1] SellPriceRate[1.1430939226519337] 
+
+StockCode[sh600990] StockName[四创电子] Industry[电子元件] 
+FocusDate[2009-12-02] FocusPrice[52.77] ExpectedBuyPrice[46.97] ExpectedSellPrice[52.77] 
+BuyDate[2009-12-14] ExpectedBuyPrice[46.97] ActualBuyPrice[46.97] 
+SellDate[2009-12-30] ExpectedSellPrice[52.77] ActualSellPrice[52.77] 
+
+StockCode[sh600352] StockName[浙江龙盛] Industry[化工行业] 
+FocusDate[2009-12-01] FocusPrice[11.11] ExpectedBuyPrice[9.89] ExpectedSellPrice[11.11] 
+ClosePrice[12.21] BuyPriceRate[0.80999180999181] 
+
+StockCode[sh600080] StockName[金花股份] Industry[医药行业] 
+FocusDate[2009-11-30] FocusPrice[6.28] ExpectedBuyPrice[5.59] ExpectedSellPrice[6.28] 
+BuyDate[2009-12-18] ExpectedBuyPrice[5.59] ActualBuyPrice[5.59] 
+SellDate[2010-01-19] ExpectedSellPrice[6.28] ActualSellPrice[6.28] 
+
+StockCode[sh600680] StockName[上海普天] Industry[通讯行业] 
+FocusDate[2009-11-27] FocusPrice[11.2] ExpectedBuyPrice[9.97] ExpectedSellPrice[11.2] 
+ClosePrice[10.67] BuyPriceRate[0.9343955014058107] 
+
+StockCode[sz002007] StockName[华兰生物] Industry[医药行业] 
+FocusDate[2009-11-26] FocusPrice[59.4] ExpectedBuyPrice[52.87] ExpectedSellPrice[59.4] 
+BuyDate[2009-12-17] ExpectedBuyPrice[52.87] ActualBuyPrice[52.87] 
+SellDate[2010-01-14] ExpectedSellPrice[59.4] ActualSellPrice[59.4] 
+
+StockCode[sz000018] StockName[中冠A] Industry[纺织服装] 
+FocusDate[2009-11-25] FocusPrice[10.03] ExpectedBuyPrice[8.93] ExpectedSellPrice[10.03] 
+BuyDate[2009-11-30] ExpectedBuyPrice[8.93] ActualBuyPrice[8.8] 
+ClosePrice[8.73] SellPriceRate[1.1489117983963344] 
+
+StockCode[sz000932] StockName[华菱钢铁] Industry[钢铁行业] 
+FocusDate[2009-11-24] FocusPrice[7.59] ExpectedBuyPrice[6.76] ExpectedSellPrice[7.59] 
+BuyDate[2009-12-23] ExpectedBuyPrice[6.76] ActualBuyPrice[6.76] 
+SellDate[2009-12-28] ExpectedSellPrice[7.59] ActualSellPrice[7.59] 
+
+StockCode[sh600660] StockName[福耀玻璃] Industry[玻璃陶瓷] 
+FocusDate[2009-11-23] FocusPrice[14.25] ExpectedBuyPrice[12.68] ExpectedSellPrice[14.25] 
+BuyDate[2010-01-22] ExpectedBuyPrice[12.68] ActualBuyPrice[12.68] 
+ClosePrice[12.71] SellPriceRate[1.121164437450826] 
+
+StockCode[sh600391] StockName[成发科技] Industry[航天航空] 
+FocusDate[2009-11-20] FocusPrice[24.59] ExpectedBuyPrice[21.89] ExpectedSellPrice[24.59] 
+BuyDate[2009-12-23] ExpectedBuyPrice[21.89] ActualBuyPrice[21.89] 
+SellDate[2010-01-06] ExpectedSellPrice[24.59] ActualSellPrice[24.59] 
+
+StockCode[sh600088] StockName[中视传媒] Industry[文化传媒] 
+FocusDate[2009-11-19] FocusPrice[18.36] ExpectedBuyPrice[16.34] ExpectedSellPrice[18.36] 
+BuyDate[2009-11-24] ExpectedBuyPrice[16.34] ActualBuyPrice[16.34] 
+SellDate[2010-01-14] ExpectedSellPrice[18.36] ActualSellPrice[18.36] 
+
+StockCode[sz000593] StockName[大通燃气] Industry[公用事业] 
+FocusDate[2009-11-18] FocusPrice[10.12] ExpectedBuyPrice[9.01] ExpectedSellPrice[10.12] 
+ClosePrice[9.25] BuyPriceRate[0.974054054054054] 
+
+StockCode[sh600097] StockName[开创国际] Industry[农牧饲渔] 
+FocusDate[2009-11-17] FocusPrice[19.16] ExpectedBuyPrice[17.05] ExpectedSellPrice[19.16] 
+ClosePrice[17.55] BuyPriceRate[0.9715099715099715] 
+
+StockCode[sz000552] StockName[靖远煤电] Industry[煤炭采选] 
+FocusDate[2009-11-16] FocusPrice[19.86] ExpectedBuyPrice[17.68] ExpectedSellPrice[19.86] 
+BuyDate[2009-12-18] ExpectedBuyPrice[17.68] ActualBuyPrice[17.68] 
+ClosePrice[15.87] SellPriceRate[1.2514177693761814] 
+
+StockCode[sz002246] StockName[北化股份] Industry[化工行业] 
+FocusDate[2009-11-13] FocusPrice[21.06] ExpectedBuyPrice[18.74] ExpectedSellPrice[21.06] 
+BuyDate[2009-12-17] ExpectedBuyPrice[18.74] ActualBuyPrice[18.74] 
+ClosePrice[16.11] SellPriceRate[1.3072625698324023] 
+
+StockCode[sh600673] StockName[东阳光科] Industry[有色金属] 
+FocusDate[2009-11-12] FocusPrice[8.58] ExpectedBuyPrice[7.64] ExpectedSellPrice[8.58] 
+BuyDate[2009-12-23] ExpectedBuyPrice[7.64] ActualBuyPrice[7.62] 
+SellDate[2010-01-06] ExpectedSellPrice[8.58] ActualSellPrice[8.58] 
+
+StockCode[sh600257] StockName[大湖股份] Industry[农牧饲渔] 
+FocusDate[2009-11-11] FocusPrice[5.94] ExpectedBuyPrice[5.29] ExpectedSellPrice[5.94] 
+ClosePrice[7.92] BuyPriceRate[0.6679292929292929] 
+
+StockCode[sh600090] StockName[啤酒花] Industry[酿酒行业] 
+FocusDate[2009-11-10] FocusPrice[8.94] ExpectedBuyPrice[7.96] ExpectedSellPrice[8.94] 
+ClosePrice[9.47] BuyPriceRate[0.8405491024287223] 
+
+StockCode[sz000752] StockName[西藏发展] Industry[酿酒行业] 
+FocusDate[2009-11-09] FocusPrice[8.82] ExpectedBuyPrice[7.85] ExpectedSellPrice[8.82] 
+ClosePrice[10.18] BuyPriceRate[0.7711198428290766] 
+
+StockCode[sh600165] StockName[新日恒力] Industry[材料行业] 
+FocusDate[2009-11-06] FocusPrice[7.77] ExpectedBuyPrice[6.92] ExpectedSellPrice[7.77] 
+ClosePrice[7.47] BuyPriceRate[0.9263721552878179] 
+
+StockCode[sh600545] StockName[新疆城建] Industry[房地产] 
+FocusDate[2009-11-05] FocusPrice[6.44] ExpectedBuyPrice[5.73] ExpectedSellPrice[6.44] 
+ClosePrice[9.7] BuyPriceRate[0.5907216494845362] 
+
+StockCode[sz002038] StockName[双鹭药业] Industry[医药行业] 
+FocusDate[2009-11-04] FocusPrice[42.96] ExpectedBuyPrice[38.23] ExpectedSellPrice[42.96] 
+ClosePrice[49.33] BuyPriceRate[0.7749847962700183] 
+
+StockCode[sh600481] StockName[双良节能] Industry[化工行业] 
+FocusDate[2009-11-03] FocusPrice[19.96] ExpectedBuyPrice[17.76] ExpectedSellPrice[19.96] 
+ClosePrice[20.9] BuyPriceRate[0.8497607655502394] 
+
+StockCode[sh600896] StockName[中海海盛] Industry[港口水运] 
+FocusDate[2009-11-02] FocusPrice[9.41] ExpectedBuyPrice[8.37] ExpectedSellPrice[9.41] 
+BuyDate[2009-12-22] ExpectedBuyPrice[8.37] ActualBuyPrice[8.37] 
+SellDate[2010-01-07] ExpectedSellPrice[9.41] ActualSellPrice[9.41] 
+
+StockCode[sh600149] StockName[廊坊发展] Industry[电子信息] 
+FocusDate[2009-10-30] FocusPrice[5.69] ExpectedBuyPrice[5.06] ExpectedSellPrice[5.69] 
+ClosePrice[6.65] BuyPriceRate[0.7609022556390976] 
+
+StockCode[sh600781] StockName[辅仁药业] Industry[医药行业] 
+FocusDate[2009-10-29] FocusPrice[7.95] ExpectedBuyPrice[7.08] ExpectedSellPrice[7.95] 
+ClosePrice[11.87] BuyPriceRate[0.5964616680707667] 
+
+StockCode[sz002252] StockName[上海莱士] Industry[医药行业] 
+FocusDate[2009-10-28] FocusPrice[30.07] ExpectedBuyPrice[26.76] ExpectedSellPrice[30.07] 
+ClosePrice[35.4] BuyPriceRate[0.7559322033898306] 
+
+StockCode[sh601008] StockName[连云港] Industry[港口水运] 
+FocusDate[2009-10-27] FocusPrice[7.23] ExpectedBuyPrice[6.43] ExpectedSellPrice[7.23] 
+ClosePrice[7.16] BuyPriceRate[0.8980446927374302] 
+
+StockCode[sz002022] StockName[科华生物] Industry[医药行业] 
+FocusDate[2009-10-26] FocusPrice[20.16] ExpectedBuyPrice[17.94] ExpectedSellPrice[20.16] 
+ClosePrice[22.76] BuyPriceRate[0.7882249560632689] 
+
+StockCode[sz000955] StockName[欣龙控股] Industry[化纤行业] 
+FocusDate[2009-10-23] FocusPrice[6.45] ExpectedBuyPrice[5.74] ExpectedSellPrice[6.45] 
+BuyDate[2009-10-30] ExpectedBuyPrice[5.74] ActualBuyPrice[5.7] 
+SellDate[2009-11-06] ExpectedSellPrice[6.45] ActualSellPrice[6.45] 
+
+StockCode[sh600872] StockName[中炬高新] Industry[综合行业] 
+FocusDate[2009-10-22] FocusPrice[10.35] ExpectedBuyPrice[9.21] ExpectedSellPrice[10.35] 
+ClosePrice[10.1] BuyPriceRate[0.911881188118812] 
+
+StockCode[sz000426] StockName[兴业矿业] Industry[有色金属] 
+FocusDate[2009-10-21] FocusPrice[11.13] ExpectedBuyPrice[9.91] ExpectedSellPrice[11.13] 
+ClosePrice[12.99] BuyPriceRate[0.7628945342571208] 
+
+StockCode[sz000526] StockName[银润投资] Industry[房地产] 
+FocusDate[2009-10-20] FocusPrice[13.01] ExpectedBuyPrice[11.58] ExpectedSellPrice[13.01] 
+ClosePrice[12.92] BuyPriceRate[0.8962848297213623] 
+
+StockCode[sh600699] StockName[均胜电子] Industry[汽车行业] 
+FocusDate[2009-10-19] FocusPrice[6.64] ExpectedBuyPrice[5.91] ExpectedSellPrice[6.64] 
+ClosePrice[6.99] BuyPriceRate[0.8454935622317596] 
+
+StockCode[sh600097] StockName[开创国际] Industry[农牧饲渔] 
+FocusDate[2009-10-16] FocusPrice[19.15] ExpectedBuyPrice[17.04] ExpectedSellPrice[19.15] 
+ClosePrice[17.55] BuyPriceRate[0.9709401709401708] 
+
+StockCode[sz000524] StockName[东方宾馆] Industry[旅游酒店] 
+FocusDate[2009-10-15] FocusPrice[7.97] ExpectedBuyPrice[7.09] ExpectedSellPrice[7.97] 
+ClosePrice[9.5] BuyPriceRate[0.7463157894736842] 
+
+StockCode[sh600466] StockName[迪康药业] Industry[医药行业] 
+FocusDate[2009-10-14] FocusPrice[10.97] ExpectedBuyPrice[9.76] ExpectedSellPrice[10.97] 
+BuyDate[2010-01-26] ExpectedBuyPrice[9.76] ActualBuyPrice[9.76] 
+ClosePrice[9.42] SellPriceRate[1.164543524416136] 
+
+StockCode[sz000899] StockName[赣能股份] Industry[电力行业] 
+FocusDate[2009-10-13] FocusPrice[9.02] ExpectedBuyPrice[8.03] ExpectedSellPrice[9.02] 
+BuyDate[2010-01-26] ExpectedBuyPrice[8.03] ActualBuyPrice[8.03] 
+ClosePrice[7.98] SellPriceRate[1.1303258145363408] 
+
+StockCode[sz002125] StockName[湘潭电化] Industry[化工行业] 
+FocusDate[2009-10-12] FocusPrice[11.48] ExpectedBuyPrice[10.22] ExpectedSellPrice[11.48] 
+ClosePrice[18.8] BuyPriceRate[0.5436170212765957] 
+
+StockCode[sh600585] StockName[海螺水泥] Industry[水泥建材] 
+FocusDate[2009-10-09] FocusPrice[45.35] ExpectedBuyPrice[40.36] ExpectedSellPrice[45.35] 
+BuyDate[2010-01-26] ExpectedBuyPrice[40.36] ActualBuyPrice[40.36] 
+ClosePrice[40.55] SellPriceRate[1.1183723797780518] 
+
+StockCode[sh600592] StockName[龙溪股份] Industry[机械行业] 
+FocusDate[2009-09-30] FocusPrice[8.07] ExpectedBuyPrice[7.18] ExpectedSellPrice[8.07] 
+ClosePrice[12.19] BuyPriceRate[0.5890073831009024] 
+
+StockCode[sz000921] StockName[海信科龙] Industry[家电行业] 
+FocusDate[2009-09-29] FocusPrice[5.63] ExpectedBuyPrice[5.01] ExpectedSellPrice[5.63] 
+ClosePrice[7.49] BuyPriceRate[0.6688918558077436] 
+
+StockCode[sh600170] StockName[上海建工] Industry[工程建设] 
+FocusDate[2009-09-28] FocusPrice[14.62] ExpectedBuyPrice[13.01] ExpectedSellPrice[14.62] 
+ClosePrice[14.06] BuyPriceRate[0.9253200568990042] 
+
+StockCode[sh600731] StockName[湖南海利] Industry[化工行业] 
+FocusDate[2009-09-25] FocusPrice[8.84] ExpectedBuyPrice[7.87] ExpectedSellPrice[8.84] 
+BuyDate[2009-09-29] ExpectedBuyPrice[7.87] ActualBuyPrice[7.65] 
+SellDate[2009-10-14] ExpectedSellPrice[8.84] ActualSellPrice[8.84] 
+
+StockCode[sh600891] StockName[秋林集团] Industry[商业百货] 
+FocusDate[2009-09-24] FocusPrice[7.05] ExpectedBuyPrice[6.27] ExpectedSellPrice[7.05] 
+ClosePrice[8.12] BuyPriceRate[0.7721674876847291] 
+
+StockCode[sh600593] StockName[大连圣亚] Industry[旅游酒店] 
+FocusDate[2009-09-23] FocusPrice[11.33] ExpectedBuyPrice[10.08] ExpectedSellPrice[11.33] 
+BuyDate[2009-09-25] ExpectedBuyPrice[10.08] ActualBuyPrice[10.08] 
+SellDate[2009-11-12] ExpectedSellPrice[11.33] ActualSellPrice[11.33] 
+
+StockCode[sh600236] StockName[桂冠电力] Industry[电力行业] 
+FocusDate[2009-09-22] FocusPrice[7.72] ExpectedBuyPrice[6.87] ExpectedSellPrice[7.72] 
+BuyDate[2009-09-29] ExpectedBuyPrice[6.87] ActualBuyPrice[6.87] 
+SellDate[2009-10-09] ExpectedSellPrice[7.72] ActualSellPrice[7.72] 
+
+StockCode[sh600116] StockName[三峡水利] Industry[电力行业] 
+FocusDate[2009-09-21] FocusPrice[8.56] ExpectedBuyPrice[7.62] ExpectedSellPrice[8.56] 
+BuyDate[2009-09-28] ExpectedBuyPrice[7.62] ActualBuyPrice[7.62] 
+SellDate[2009-11-04] ExpectedSellPrice[8.56] ActualSellPrice[8.56] 
+
+StockCode[sz000683] StockName[远兴能源] Industry[化工行业] 
+FocusDate[2009-09-18] FocusPrice[13.17] ExpectedBuyPrice[11.72] ExpectedSellPrice[13.17] 
+BuyDate[2009-09-28] ExpectedBuyPrice[11.72] ActualBuyPrice[11.72] 
+SellDate[2009-10-19] ExpectedSellPrice[13.17] ActualSellPrice[13.17] 
+
+StockCode[sh600093] StockName[禾嘉股份] Industry[汽车行业] 
+FocusDate[2009-09-17] FocusPrice[7.01] ExpectedBuyPrice[6.24] ExpectedSellPrice[7.01] 
+BuyDate[2009-09-23] ExpectedBuyPrice[6.24] ActualBuyPrice[6.24] 
+SellDate[2009-11-10] ExpectedSellPrice[7.01] ActualSellPrice[7.01] 
+
+StockCode[sh600805] StockName[悦达投资] Industry[汽车行业] 
+FocusDate[2009-09-16] FocusPrice[7.28] ExpectedBuyPrice[6.48] ExpectedSellPrice[7.28] 
+ClosePrice[11.67] BuyPriceRate[0.5552699228791774] 
+
+StockCode[sh600623] StockName[双钱股份] Industry[汽车行业] 
+FocusDate[2009-09-15] FocusPrice[20.91] ExpectedBuyPrice[18.61] ExpectedSellPrice[20.91] 
+BuyDate[2009-09-21] ExpectedBuyPrice[18.61] ActualBuyPrice[18.61] 
+SellDate[2009-09-22] ExpectedSellPrice[20.91] ActualSellPrice[20.91] 
+
+StockCode[sh600827] StockName[百联股份] Industry[商业百货] 
+FocusDate[2009-09-14] FocusPrice[15.4] ExpectedBuyPrice[13.71] ExpectedSellPrice[15.4] 
+BuyDate[2009-09-24] ExpectedBuyPrice[13.71] ActualBuyPrice[13.71] 
+SellDate[2009-10-20] ExpectedSellPrice[15.4] ActualSellPrice[15.4] 
+
+StockCode[sz000606] StockName[青海明胶] Industry[医药行业] 
+FocusDate[2009-09-11] FocusPrice[4.82] ExpectedBuyPrice[4.29] ExpectedSellPrice[4.82] 
+ClosePrice[6.71] BuyPriceRate[0.639344262295082] 
+
+StockCode[sz000507] StockName[珠海港] Industry[港口水运] 
+FocusDate[2009-09-10] FocusPrice[7.34] ExpectedBuyPrice[6.53] ExpectedSellPrice[7.34] 
+BuyDate[2009-09-29] ExpectedBuyPrice[6.53] ActualBuyPrice[6.53] 
+SellDate[2009-10-14] ExpectedSellPrice[7.34] ActualSellPrice[7.34] 
+
+StockCode[sz002150] StockName[通润装备] Industry[机械行业] 
+FocusDate[2009-09-09] FocusPrice[14.08] ExpectedBuyPrice[12.53] ExpectedSellPrice[14.08] 
+ClosePrice[16.35] BuyPriceRate[0.766360856269113] 
+
+StockCode[sz000767] StockName[漳泽电力] Industry[电力行业] 
+FocusDate[2009-09-08] FocusPrice[5.29] ExpectedBuyPrice[4.71] ExpectedSellPrice[5.29] 
+BuyDate[2009-09-24] ExpectedBuyPrice[4.71] ActualBuyPrice[4.71] 
+SellDate[2009-11-06] ExpectedSellPrice[5.29] ActualSellPrice[5.29] 
+
+StockCode[sz000666] StockName[经纬纺机] Industry[机械行业] 
+FocusDate[2009-09-07] FocusPrice[5.87] ExpectedBuyPrice[5.22] ExpectedSellPrice[5.87] 
+ClosePrice[9.65] BuyPriceRate[0.5409326424870465] 
+
+StockCode[sz000551] StockName[创元科技] Industry[机械行业] 
+FocusDate[2009-09-04] FocusPrice[6.38] ExpectedBuyPrice[5.68] ExpectedSellPrice[6.38] 
+ClosePrice[11.65] BuyPriceRate[0.48755364806866947] 
+
+StockCode[sz000908] StockName[天一科技] Industry[机械行业] 
+FocusDate[2009-09-03] FocusPrice[9.52] ExpectedBuyPrice[8.47] ExpectedSellPrice[9.52] 
+BuyDate[2009-09-29] ExpectedBuyPrice[8.47] ActualBuyPrice[8.47] 
+SellDate[2009-10-12] ExpectedSellPrice[9.52] ActualSellPrice[9.52] 
+
+StockCode[sz002272] StockName[川润股份] Industry[机械行业] 
+FocusDate[2009-09-02] FocusPrice[17.23] ExpectedBuyPrice[15.33] ExpectedSellPrice[17.23] 
+ClosePrice[25.18] BuyPriceRate[0.6088165210484512] 
+
+StockCode[sh601107] StockName[四川成渝] Industry[高速公路] 
+FocusDate[2009-09-01] FocusPrice[7.84] ExpectedBuyPrice[6.98] ExpectedSellPrice[7.84] 
+BuyDate[2009-09-29] ExpectedBuyPrice[6.98] ActualBuyPrice[6.98] 
+SellDate[2009-11-24] ExpectedSellPrice[7.84] ActualSellPrice[7.84] 
+
+StockCode[sh600847] StockName[万里股份] Industry[材料行业] 
+FocusDate[2009-08-31] FocusPrice[9.44] ExpectedBuyPrice[8.4] ExpectedSellPrice[9.44] 
+ClosePrice[11.17] BuyPriceRate[0.7520143240823635] 
+
+StockCode[sz000585] StockName[东北电气] Industry[输配电气] 
+FocusDate[2009-08-28] FocusPrice[4.11] ExpectedBuyPrice[3.66] ExpectedSellPrice[4.11] 
+BuyDate[2009-09-28] ExpectedBuyPrice[3.66] ActualBuyPrice[3.66] 
+SellDate[2009-10-20] ExpectedSellPrice[4.11] ActualSellPrice[4.11] 
+
+StockCode[sz000829] StockName[天音控股] Industry[通讯行业] 
+FocusDate[2009-08-27] FocusPrice[6.28] ExpectedBuyPrice[5.59] ExpectedSellPrice[6.28] 
+BuyDate[2009-08-31] ExpectedBuyPrice[5.59] ActualBuyPrice[5.59] 
+SellDate[2009-09-14] ExpectedSellPrice[6.28] ActualSellPrice[6.28] 
+
+StockCode[sh600965] StockName[福成五丰] Industry[农牧饲渔] 
+FocusDate[2009-08-26] FocusPrice[5.67] ExpectedBuyPrice[5.05] ExpectedSellPrice[5.67] 
+ClosePrice[6.73] BuyPriceRate[0.7503714710252599] 
+
+StockCode[sz000532] StockName[力合股份] Industry[综合行业] 
+FocusDate[2009-08-25] FocusPrice[11.77] ExpectedBuyPrice[10.48] ExpectedSellPrice[11.77] 
+ClosePrice[11.07] BuyPriceRate[0.9467028003613369] 
+
+StockCode[sz000635] StockName[英 力 特] Industry[化工行业] 
+FocusDate[2009-08-24] FocusPrice[18.95] ExpectedBuyPrice[16.87] ExpectedSellPrice[18.95] 
+BuyDate[2009-09-01] ExpectedBuyPrice[16.87] ActualBuyPrice[15.36] 
+SellDate[2009-11-12] ExpectedSellPrice[18.95] ActualSellPrice[18.95] 
+
+StockCode[sh600338] StockName[西藏珠峰] Industry[有色金属] 
+FocusDate[2009-08-21] FocusPrice[13.39] ExpectedBuyPrice[11.92] ExpectedSellPrice[13.39] 
+BuyDate[2009-08-31] ExpectedBuyPrice[11.92] ActualBuyPrice[11.92] 
+SellDate[2009-09-17] ExpectedSellPrice[13.39] ActualSellPrice[13.39] 
+
+StockCode[sz002197] StockName[证通电子] Industry[电子信息] 
+FocusDate[2009-08-20] FocusPrice[18.33] ExpectedBuyPrice[16.31] ExpectedSellPrice[18.33] 
+BuyDate[2009-09-01] ExpectedBuyPrice[16.31] ActualBuyPrice[16.31] 
+SellDate[2009-09-10] ExpectedSellPrice[18.33] ActualSellPrice[18.33] 
+
+StockCode[sz000691] StockName[亚太实业] Industry[房地产] 
+FocusDate[2009-08-19] FocusPrice[4.75] ExpectedBuyPrice[4.23] ExpectedSellPrice[4.75] 
+BuyDate[2009-09-01] ExpectedBuyPrice[4.23] ActualBuyPrice[4.07] 
+SellDate[2009-09-15] ExpectedSellPrice[4.75] ActualSellPrice[4.85] 
+
+StockCode[sz000761] StockName[本钢板材] Industry[钢铁行业] 
+FocusDate[2009-08-18] FocusPrice[7.85] ExpectedBuyPrice[6.99] ExpectedSellPrice[7.85] 
+BuyDate[2009-08-20] ExpectedBuyPrice[6.99] ActualBuyPrice[6.99] 
+SellDate[2009-11-24] ExpectedSellPrice[7.85] ActualSellPrice[7.85] 
+
+StockCode[sh600980] StockName[北矿磁材] Industry[材料行业] 
+FocusDate[2009-08-17] FocusPrice[9.71] ExpectedBuyPrice[8.64] ExpectedSellPrice[9.71] 
+BuyDate[2009-08-20] ExpectedBuyPrice[8.64] ActualBuyPrice[8.58] 
+SellDate[2009-09-17] ExpectedSellPrice[9.71] ActualSellPrice[9.71] 
+
+StockCode[sh600746] StockName[江苏索普] Industry[化工行业] 
+FocusDate[2009-08-14] FocusPrice[7.74] ExpectedBuyPrice[6.89] ExpectedSellPrice[7.74] 
+BuyDate[2009-08-18] ExpectedBuyPrice[6.89] ActualBuyPrice[6.77] 
+SellDate[2009-09-28] ExpectedSellPrice[7.74] ActualSellPrice[7.74] 
+
+StockCode[sh600378] StockName[天科股份] Industry[化工行业] 
+FocusDate[2009-08-13] FocusPrice[9.49] ExpectedBuyPrice[8.45] ExpectedSellPrice[9.49] 
+BuyDate[2009-08-17] ExpectedBuyPrice[8.45] ActualBuyPrice[8.45] 
+SellDate[2009-09-21] ExpectedSellPrice[9.49] ActualSellPrice[9.49] 
+
+StockCode[sh600111] StockName[北方稀土] Industry[有色金属] 
+FocusDate[2009-08-12] FocusPrice[23.02] ExpectedBuyPrice[20.49] ExpectedSellPrice[23.02] 
+BuyDate[2009-08-18] ExpectedBuyPrice[20.49] ActualBuyPrice[20.49] 
+SellDate[2009-09-03] ExpectedSellPrice[23.02] ActualSellPrice[23.02] 
+
+StockCode[sz000629] StockName[攀钢钒钛] Industry[钢铁行业] 
+FocusDate[2009-08-11] FocusPrice[9.28] ExpectedBuyPrice[8.26] ExpectedSellPrice[9.28] 
+BuyDate[2009-08-21] ExpectedBuyPrice[8.26] ActualBuyPrice[8.26] 
+ClosePrice[8.2] SellPriceRate[1.1317073170731708] 
+
+StockCode[sh600329] StockName[中新药业] Industry[医药行业] 
+FocusDate[2009-08-10] FocusPrice[18.71] ExpectedBuyPrice[16.65] ExpectedSellPrice[18.71] 
+BuyDate[2009-08-18] ExpectedBuyPrice[16.65] ActualBuyPrice[16.65] 
+SellDate[2009-08-19] ExpectedSellPrice[18.71] ActualSellPrice[19.31] 
+
+StockCode[sh600317] StockName[营口港] Industry[港口水运] 
+FocusDate[2009-08-07] FocusPrice[13.24] ExpectedBuyPrice[11.78] ExpectedSellPrice[13.24] 
+BuyDate[2009-09-10] ExpectedBuyPrice[11.78] ActualBuyPrice[8.0] 
+ClosePrice[7.78] SellPriceRate[1.7017994858611825] 
+
+StockCode[sz000598] StockName[兴蓉投资] Industry[公用事业] 
+FocusDate[2009-08-06] FocusPrice[11.91] ExpectedBuyPrice[10.6] ExpectedSellPrice[11.91] 
+BuyDate[2009-08-12] ExpectedBuyPrice[10.6] ActualBuyPrice[10.6] 
+SellDate[2009-11-23] ExpectedSellPrice[11.91] ActualSellPrice[11.91] 
+
+StockCode[sh600211] StockName[西藏药业] Industry[医药行业] 
+FocusDate[2009-08-05] FocusPrice[11.15] ExpectedBuyPrice[9.92] ExpectedSellPrice[11.15] 
+BuyDate[2009-08-13] ExpectedBuyPrice[9.92] ActualBuyPrice[9.92] 
+SellDate[2009-08-28] ExpectedSellPrice[11.15] ActualSellPrice[11.2] 
+
+StockCode[sh600664] StockName[哈药股份] Industry[医药行业] 
+FocusDate[2009-08-04] FocusPrice[15.87] ExpectedBuyPrice[14.12] ExpectedSellPrice[15.87] 
+ClosePrice[18.19] BuyPriceRate[0.7762506871907641] 
+
+StockCode[sz000722] StockName[湖南发展] Industry[电力行业] 
+FocusDate[2009-08-03] FocusPrice[9.6] ExpectedBuyPrice[8.54] ExpectedSellPrice[9.6] 
+BuyDate[2009-08-06] ExpectedBuyPrice[8.54] ActualBuyPrice[8.36] 
+SellDate[2009-12-10] ExpectedSellPrice[9.6] ActualSellPrice[9.8] 
+
+StockCode[sh600719] StockName[大连热电] Industry[电力行业] 
+FocusDate[2009-07-31] FocusPrice[10.02] ExpectedBuyPrice[8.92] ExpectedSellPrice[10.02] 
+BuyDate[2009-08-12] ExpectedBuyPrice[8.92] ActualBuyPrice[8.92] 
+ClosePrice[7.78] SellPriceRate[1.287917737789203] 
+
+StockCode[sh601107] StockName[四川成渝] Industry[高速公路] 
+FocusDate[2009-07-30] FocusPrice[9.34] ExpectedBuyPrice[8.31] ExpectedSellPrice[9.34] 
+BuyDate[2009-08-06] ExpectedBuyPrice[8.31] ActualBuyPrice[8.31] 
+SellDate[2009-11-26] ExpectedSellPrice[9.34] ActualSellPrice[9.34] 
+
+StockCode[sh600339] StockName[天利高新] Industry[石油行业] 
+FocusDate[2009-07-29] FocusPrice[8.26] ExpectedBuyPrice[7.35] ExpectedSellPrice[8.26] 
+BuyDate[2009-08-19] ExpectedBuyPrice[7.35] ActualBuyPrice[7.35] 
+SellDate[2009-08-27] ExpectedSellPrice[8.26] ActualSellPrice[8.26] 
+
+StockCode[sh600791] StockName[京能置业] Industry[房地产] 
+FocusDate[2009-07-28] FocusPrice[8.55] ExpectedBuyPrice[7.61] ExpectedSellPrice[8.55] 
+BuyDate[2009-07-30] ExpectedBuyPrice[7.61] ActualBuyPrice[7.61] 
+SellDate[2009-12-03] ExpectedSellPrice[8.55] ActualSellPrice[8.55] 
+
+StockCode[sh600691] StockName[阳煤化工] Industry[化工行业] 
+FocusDate[2009-07-27] FocusPrice[10.49] ExpectedBuyPrice[9.34] ExpectedSellPrice[10.49] 
+BuyDate[2009-07-30] ExpectedBuyPrice[9.34] ActualBuyPrice[9.3] 
+SellDate[2009-09-10] ExpectedSellPrice[10.49] ActualSellPrice[10.49] 
+
+StockCode[sz002100] StockName[天康生物] Industry[农牧饲渔] 
+FocusDate[2009-07-24] FocusPrice[16.0] ExpectedBuyPrice[14.24] ExpectedSellPrice[16.0] 
+BuyDate[2009-08-17] ExpectedBuyPrice[14.24] ActualBuyPrice[14.0] 
+SellDate[2009-09-07] ExpectedSellPrice[16.0] ActualSellPrice[16.0] 
+
+StockCode[sz000042] StockName[中洲控股] Industry[房地产] 
+FocusDate[2009-07-23] FocusPrice[25.33] ExpectedBuyPrice[22.54] ExpectedSellPrice[25.33] 
+BuyDate[2009-07-30] ExpectedBuyPrice[22.54] ActualBuyPrice[22.54] 
+SellDate[2009-11-20] ExpectedSellPrice[25.33] ActualSellPrice[25.33] 
+
+StockCode[sz002010] StockName[传化股份] Industry[化工行业] 
+FocusDate[2009-07-22] FocusPrice[10.78] ExpectedBuyPrice[9.59] ExpectedSellPrice[10.78] 
+BuyDate[2009-08-17] ExpectedBuyPrice[9.59] ActualBuyPrice[9.59] 
+SellDate[2009-08-24] ExpectedSellPrice[10.78] ActualSellPrice[10.78] 
+
+StockCode[sz000789] StockName[万年青] Industry[水泥建材] 
+FocusDate[2009-07-21] FocusPrice[8.52] ExpectedBuyPrice[7.58] ExpectedSellPrice[8.52] 
+BuyDate[2009-08-13] ExpectedBuyPrice[7.58] ActualBuyPrice[7.58] 
+ClosePrice[8.17] SellPriceRate[1.0428396572827416] 
+
+StockCode[sz000650] StockName[仁和药业] Industry[医药行业] 
+FocusDate[2009-07-20] FocusPrice[17.71] ExpectedBuyPrice[15.76] ExpectedSellPrice[17.71] 
+BuyDate[2009-07-30] ExpectedBuyPrice[15.76] ActualBuyPrice[15.76] 
+SellDate[2009-08-24] ExpectedSellPrice[17.71] ActualSellPrice[17.71] 
+
+StockCode[sh600478] StockName[科力远] Industry[电子元件] 
+FocusDate[2009-07-17] FocusPrice[19.68] ExpectedBuyPrice[17.52] ExpectedSellPrice[19.68] 
+BuyDate[2009-07-30] ExpectedBuyPrice[17.52] ActualBuyPrice[17.52] 
+SellDate[2009-08-03] ExpectedSellPrice[19.68] ActualSellPrice[19.68] 
+
+StockCode[sh600969] StockName[郴电国际] Industry[电力行业] 
+FocusDate[2009-07-16] FocusPrice[11.33] ExpectedBuyPrice[10.08] ExpectedSellPrice[11.33] 
+BuyDate[2009-08-18] ExpectedBuyPrice[10.08] ActualBuyPrice[10.06] 
+SellDate[2009-08-21] ExpectedSellPrice[11.33] ActualSellPrice[11.33] 
+
+StockCode[sh600516] StockName[方大炭素] Industry[材料行业] 
+FocusDate[2009-07-15] FocusPrice[9.87] ExpectedBuyPrice[8.78] ExpectedSellPrice[9.87] 
+BuyDate[2009-08-17] ExpectedBuyPrice[8.78] ActualBuyPrice[8.78] 
+SellDate[2009-10-21] ExpectedSellPrice[9.87] ActualSellPrice[9.87] 
+
+StockCode[sh600863] StockName[内蒙华电] Industry[电力行业] 
+FocusDate[2009-07-14] FocusPrice[6.24] ExpectedBuyPrice[5.55] ExpectedSellPrice[6.24] 
+ClosePrice[7.95] BuyPriceRate[0.6981132075471698] 
+
+StockCode[sh600171] StockName[上海贝岭] Industry[电子元件] 
+FocusDate[2009-07-13] FocusPrice[6.95] ExpectedBuyPrice[6.19] ExpectedSellPrice[6.95] 
+BuyDate[2009-08-13] ExpectedBuyPrice[6.19] ActualBuyPrice[6.19] 
+SellDate[2009-09-17] ExpectedSellPrice[6.95] ActualSellPrice[7.6] 
+
+StockCode[sh600654] StockName[飞乐股份] Industry[电子元件] 
+FocusDate[2009-07-10] FocusPrice[5.67] ExpectedBuyPrice[5.05] ExpectedSellPrice[5.67] 
+ClosePrice[6.18] BuyPriceRate[0.8171521035598706] 
+
+StockCode[sh600521] StockName[华海药业] Industry[医药行业] 
+FocusDate[2009-07-09] FocusPrice[15.4] ExpectedBuyPrice[13.71] ExpectedSellPrice[15.4] 
+BuyDate[2009-07-29] ExpectedBuyPrice[13.71] ActualBuyPrice[13.71] 
+SellDate[2009-10-12] ExpectedSellPrice[15.4] ActualSellPrice[15.4] 
+
+StockCode[sz002005] StockName[德豪润达] Industry[家电行业] 
+FocusDate[2009-07-08] FocusPrice[12.86] ExpectedBuyPrice[11.45] ExpectedSellPrice[12.86] 
+BuyDate[2009-08-18] ExpectedBuyPrice[11.45] ActualBuyPrice[11.45] 
+SellDate[2009-10-16] ExpectedSellPrice[12.86] ActualSellPrice[13.89] 
+
+StockCode[sz002236] StockName[大华股份] Industry[电子信息] 
+FocusDate[2009-07-07] FocusPrice[46.41] ExpectedBuyPrice[41.3] ExpectedSellPrice[46.41] 
+BuyDate[2009-08-17] ExpectedBuyPrice[41.3] ActualBuyPrice[41.3] 
+SellDate[2009-09-16] ExpectedSellPrice[46.41] ActualSellPrice[46.41] 
+
+StockCode[sh600358] StockName[国旅联合] Industry[旅游酒店] 
+FocusDate[2009-07-06] FocusPrice[5.64] ExpectedBuyPrice[5.02] ExpectedSellPrice[5.64] 
+BuyDate[2009-08-17] ExpectedBuyPrice[5.02] ActualBuyPrice[5.02] 
+SellDate[2009-08-25] ExpectedSellPrice[5.64] ActualSellPrice[5.64] 
+
+StockCode[sz002200] StockName[云投生态] Industry[工程建设] 
+FocusDate[2009-07-03] FocusPrice[20.68] ExpectedBuyPrice[18.41] ExpectedSellPrice[20.68] 
+ClosePrice[29.16] BuyPriceRate[0.6313443072702332] 
+
+StockCode[sz002199] StockName[东晶电子] Industry[电子元件] 
+FocusDate[2009-07-02] FocusPrice[14.45] ExpectedBuyPrice[12.86] ExpectedSellPrice[14.45] 
+BuyDate[2009-08-19] ExpectedBuyPrice[12.86] ActualBuyPrice[12.86] 
+SellDate[2009-08-20] ExpectedSellPrice[14.45] ActualSellPrice[14.45] 
+
+StockCode[sz000513] StockName[丽珠集团] Industry[医药行业] 
+FocusDate[2009-07-01] FocusPrice[28.6] ExpectedBuyPrice[25.45] ExpectedSellPrice[28.6] 
+BuyDate[2009-08-20] ExpectedBuyPrice[25.45] ActualBuyPrice[25.45] 
+SellDate[2009-08-24] ExpectedSellPrice[28.6] ActualSellPrice[28.6] 
+
+StockCode[sh600222] StockName[太龙药业] Industry[医药行业] 
+FocusDate[2009-06-30] FocusPrice[8.22] ExpectedBuyPrice[7.32] ExpectedSellPrice[8.22] 
+BuyDate[2009-07-29] ExpectedBuyPrice[7.32] ActualBuyPrice[7.32] 
+SellDate[2009-09-14] ExpectedSellPrice[8.22] ActualSellPrice[8.22] 
+
+StockCode[sh600317] StockName[营口港] Industry[港口水运] 
+FocusDate[2009-06-29] FocusPrice[11.64] ExpectedBuyPrice[10.36] ExpectedSellPrice[11.64] 
+BuyDate[2009-09-10] ExpectedBuyPrice[10.36] ActualBuyPrice[8.0] 
+ClosePrice[7.78] SellPriceRate[1.4961439588688947] 
+
+StockCode[sz002268] StockName[卫 士 通] Industry[电子信息] 
+FocusDate[2009-06-26] FocusPrice[20.06] ExpectedBuyPrice[17.85] ExpectedSellPrice[20.06] 
+ClosePrice[37.6] BuyPriceRate[0.4747340425531915] 
+
+StockCode[sz000893] StockName[东凌粮油] Industry[食品行业] 
+FocusDate[2009-06-25] FocusPrice[18.5] ExpectedBuyPrice[16.46] ExpectedSellPrice[18.5] 
+ClosePrice[27.67] BuyPriceRate[0.5948680881821468] 
+
+StockCode[sh600082] StockName[海泰发展] Industry[房地产] 
+FocusDate[2009-06-24] FocusPrice[7.11] ExpectedBuyPrice[6.33] ExpectedSellPrice[7.11] 
+ClosePrice[7.13] BuyPriceRate[0.8877980364656382] 
+
+StockCode[sz000516] StockName[国际医学] Industry[商业百货] 
+FocusDate[2009-06-23] FocusPrice[7.06] ExpectedBuyPrice[6.28] ExpectedSellPrice[7.06] 
+ClosePrice[8.11] BuyPriceRate[0.7743526510480888] 
+
+StockCode[sz000510] StockName[金路集团] Industry[化工行业] 
+FocusDate[2009-06-22] FocusPrice[5.58] ExpectedBuyPrice[4.97] ExpectedSellPrice[5.58] 
+ClosePrice[9.15] BuyPriceRate[0.5431693989071038] 
+
+StockCode[sh600387] StockName[海越股份] Industry[石油行业] 
+FocusDate[2009-06-19] FocusPrice[11.69] ExpectedBuyPrice[10.4] ExpectedSellPrice[11.69] 
+BuyDate[2009-08-19] ExpectedBuyPrice[10.4] ActualBuyPrice[10.4] 
+SellDate[2009-08-24] ExpectedSellPrice[11.69] ActualSellPrice[11.69] 
+
+StockCode[sz000045] StockName[深纺织Ａ] Industry[纺织服装] 
+FocusDate[2009-06-18] FocusPrice[10.63] ExpectedBuyPrice[9.46] ExpectedSellPrice[10.63] 
+BuyDate[2009-06-23] ExpectedBuyPrice[9.46] ActualBuyPrice[9.46] 
+SellDate[2009-07-31] ExpectedSellPrice[10.63] ActualSellPrice[10.63] 
+
+StockCode[sh600561] StockName[江西长运] Industry[交运物流] 
+FocusDate[2009-06-17] FocusPrice[11.15] ExpectedBuyPrice[9.92] ExpectedSellPrice[11.15] 
+BuyDate[2009-08-18] ExpectedBuyPrice[9.92] ActualBuyPrice[9.92] 
+SellDate[2009-11-16] ExpectedSellPrice[11.15] ActualSellPrice[11.15] 
+
+StockCode[sh600435] StockName[北方导航] Industry[机械行业] 
+FocusDate[2009-06-16] FocusPrice[20.28] ExpectedBuyPrice[18.05] ExpectedSellPrice[20.28] 
+ClosePrice[23.88] BuyPriceRate[0.7558626465661642] 
+
+StockCode[sz000001] StockName[平安银行] Industry[银行] 
+FocusDate[2009-06-15] FocusPrice[22.0] ExpectedBuyPrice[19.58] ExpectedSellPrice[22.0] 
+BuyDate[2009-08-26] ExpectedBuyPrice[19.58] ActualBuyPrice[19.58] 
+SellDate[2009-09-14] ExpectedSellPrice[22.0] ActualSellPrice[22.0] 
+
+StockCode[sh600731] StockName[湖南海利] Industry[化工行业] 
+FocusDate[2009-06-12] FocusPrice[6.2] ExpectedBuyPrice[5.52] ExpectedSellPrice[6.2] 
+ClosePrice[8.15] BuyPriceRate[0.6773006134969324] 
+
+StockCode[sz002234] StockName[*ST民和] Industry[农牧饲渔] 
+FocusDate[2009-06-11] FocusPrice[15.65] ExpectedBuyPrice[13.93] ExpectedSellPrice[15.65] 
+BuyDate[2009-08-14] ExpectedBuyPrice[13.93] ActualBuyPrice[13.93] 
+SellDate[2009-09-15] ExpectedSellPrice[15.65] ActualSellPrice[16.5] 
+
+StockCode[sz000028] StockName[国药一致] Industry[医药行业] 
+FocusDate[2009-06-10] FocusPrice[18.57] ExpectedBuyPrice[16.53] ExpectedSellPrice[18.57] 
+ClosePrice[29.79] BuyPriceRate[0.5548841893252769] 
+
+StockCode[sh600848] StockName[自仪股份] Industry[仪器仪表] 
+FocusDate[2009-06-09] FocusPrice[10.38] ExpectedBuyPrice[9.24] ExpectedSellPrice[10.38] 
+BuyDate[2009-07-30] ExpectedBuyPrice[9.24] ActualBuyPrice[9.24] 
+SellDate[2009-08-05] ExpectedSellPrice[10.38] ActualSellPrice[10.38] 
+
+StockCode[sz002124] StockName[天邦股份] Industry[农牧饲渔] 
+FocusDate[2009-06-08] FocusPrice[11.42] ExpectedBuyPrice[10.16] ExpectedSellPrice[11.42] 
+ClosePrice[14.83] BuyPriceRate[0.6850977747808497] 
+
+StockCode[sz002113] StockName[天润控股] Industry[化工行业] 
+FocusDate[2009-06-05] FocusPrice[7.97] ExpectedBuyPrice[7.09] ExpectedSellPrice[7.97] 
+BuyDate[2009-08-17] ExpectedBuyPrice[7.09] ActualBuyPrice[7.09] 
+SellDate[2009-09-07] ExpectedSellPrice[7.97] ActualSellPrice[7.97] 
+
+StockCode[sh600511] StockName[国药股份] Industry[医药行业] 
+FocusDate[2009-06-04] FocusPrice[16.84] ExpectedBuyPrice[14.99] ExpectedSellPrice[16.84] 
+ClosePrice[26.99] BuyPriceRate[0.5553908855131531] 
+
+StockCode[sh600159] StockName[大龙地产] Industry[房地产] 
+FocusDate[2009-06-03] FocusPrice[9.43] ExpectedBuyPrice[8.39] ExpectedSellPrice[9.43] 
+ClosePrice[17.11] BuyPriceRate[0.4903565166569258] 
+
+StockCode[sz000988] StockName[华工科技] Industry[机械行业] 
+FocusDate[2009-06-02] FocusPrice[10.27] ExpectedBuyPrice[9.14] ExpectedSellPrice[10.27] 
+ClosePrice[15.27] BuyPriceRate[0.5985592665356909] 
+
+StockCode[sh600696] StockName[多伦股份] Industry[房地产] 
+FocusDate[2009-06-01] FocusPrice[5.49] ExpectedBuyPrice[4.89] ExpectedSellPrice[5.49] 
+BuyDate[2009-08-19] ExpectedBuyPrice[4.89] ActualBuyPrice[4.89] 
+SellDate[2009-09-03] ExpectedSellPrice[5.49] ActualSellPrice[5.49] 
+
+StockCode[sz000410] StockName[沈阳机床] Industry[机械行业] 
+FocusDate[2009-05-27] FocusPrice[8.44] ExpectedBuyPrice[7.51] ExpectedSellPrice[8.44] 
+BuyDate[2009-08-31] ExpectedBuyPrice[7.51] ActualBuyPrice[7.51] 
+SellDate[2009-09-17] ExpectedSellPrice[8.44] ActualSellPrice[8.44] 
+
+StockCode[sz002195] StockName[海隆软件] Industry[电子信息] 
+FocusDate[2009-05-26] FocusPrice[19.0] ExpectedBuyPrice[16.91] ExpectedSellPrice[19.0] 
+BuyDate[2009-08-17] ExpectedBuyPrice[16.91] ActualBuyPrice[16.91] 
+SellDate[2009-09-16] ExpectedSellPrice[19.0] ActualSellPrice[19.0] 
+
+StockCode[sz000712] StockName[锦龙股份] Industry[券商信托] 
+FocusDate[2009-05-25] FocusPrice[13.96] ExpectedBuyPrice[12.42] ExpectedSellPrice[13.96] 
+ClosePrice[18.42] BuyPriceRate[0.6742671009771987] 
+
+StockCode[sh600757] StockName[长江传媒] Industry[文化传媒] 
+FocusDate[2009-05-22] FocusPrice[5.48] ExpectedBuyPrice[4.88] ExpectedSellPrice[5.48] 
+BuyDate[2009-06-18] ExpectedBuyPrice[4.88] ActualBuyPrice[4.7] 
+SellDate[2009-07-09] ExpectedSellPrice[5.48] ActualSellPrice[5.48] 
+
+StockCode[sh600107] StockName[美尔雅] Industry[纺织服装] 
+FocusDate[2009-05-21] FocusPrice[11.51] ExpectedBuyPrice[10.24] ExpectedSellPrice[11.51] 
+BuyDate[2009-08-14] ExpectedBuyPrice[10.24] ActualBuyPrice[10.24] 
+SellDate[2009-10-14] ExpectedSellPrice[11.51] ActualSellPrice[11.51] 
+
+StockCode[sh600805] StockName[悦达投资] Industry[汽车行业] 
+FocusDate[2009-05-20] FocusPrice[5.46] ExpectedBuyPrice[4.86] ExpectedSellPrice[5.46] 
+ClosePrice[11.67] BuyPriceRate[0.41645244215938304] 
+
+StockCode[sz002208] StockName[合肥城建] Industry[房地产] 
+FocusDate[2009-05-19] FocusPrice[11.93] ExpectedBuyPrice[10.62] ExpectedSellPrice[11.93] 
+ClosePrice[18.38] BuyPriceRate[0.5778019586507073] 
+
+StockCode[sh600862] StockName[南通科技] Industry[机械行业] 
+FocusDate[2009-05-18] FocusPrice[7.83] ExpectedBuyPrice[6.97] ExpectedSellPrice[7.83] 
+ClosePrice[13.87] BuyPriceRate[0.5025234318673396] 
+
+StockCode[sz000546] StockName[金圆股份] Industry[房地产] 
+FocusDate[2009-05-15] FocusPrice[7.98] ExpectedBuyPrice[7.1] ExpectedSellPrice[7.98] 
+ClosePrice[12.9] BuyPriceRate[0.5503875968992248] 
+
+StockCode[sh600391] StockName[成发科技] Industry[航天航空] 
+FocusDate[2009-05-14] FocusPrice[20.0] ExpectedBuyPrice[17.8] ExpectedSellPrice[20.0] 
+BuyDate[2009-05-22] ExpectedBuyPrice[17.8] ActualBuyPrice[17.8] 
+SellDate[2009-06-29] ExpectedSellPrice[20.0] ActualSellPrice[20.0] 
+
+StockCode[sz002140] StockName[东华科技] Industry[工程建设] 
+FocusDate[2009-05-13] FocusPrice[32.5] ExpectedBuyPrice[28.92] ExpectedSellPrice[32.5] 
+BuyDate[2009-05-25] ExpectedBuyPrice[28.92] ActualBuyPrice[27.27] 
+SellDate[2009-10-23] ExpectedSellPrice[32.5] ActualSellPrice[32.5] 
+
+StockCode[sz000592] StockName[平潭发展] Industry[木业家具] 
+FocusDate[2009-05-12] FocusPrice[5.53] ExpectedBuyPrice[4.92] ExpectedSellPrice[5.53] 
+BuyDate[2009-05-21] ExpectedBuyPrice[4.92] ActualBuyPrice[4.92] 
+SellDate[2009-07-20] ExpectedSellPrice[5.53] ActualSellPrice[5.53] 
+
+StockCode[sh600657] StockName[信达地产] Industry[房地产] 
+FocusDate[2009-05-11] FocusPrice[9.83] ExpectedBuyPrice[8.75] ExpectedSellPrice[9.83] 
+BuyDate[2009-08-19] ExpectedBuyPrice[8.75] ActualBuyPrice[8.75] 
+SellDate[2009-09-04] ExpectedSellPrice[9.83] ActualSellPrice[9.83] 
+
+StockCode[sh600750] StockName[江中药业] Industry[医药行业] 
+FocusDate[2009-05-08] FocusPrice[13.12] ExpectedBuyPrice[11.68] ExpectedSellPrice[13.12] 
+ClosePrice[27.8] BuyPriceRate[0.4201438848920863] 
+
+StockCode[sz000545] StockName[金浦钛业] Industry[化工行业] 
+FocusDate[2009-05-07] FocusPrice[8.95] ExpectedBuyPrice[7.97] ExpectedSellPrice[8.95] 
+BuyDate[2009-09-01] ExpectedBuyPrice[7.97] ActualBuyPrice[7.97] 
+SellDate[2009-09-15] ExpectedSellPrice[8.95] ActualSellPrice[8.95] 
+
+StockCode[sz000990] StockName[诚志股份] Industry[医药行业] 
+FocusDate[2009-05-06] FocusPrice[14.28] ExpectedBuyPrice[12.71] ExpectedSellPrice[14.28] 
+BuyDate[2009-05-12] ExpectedBuyPrice[12.71] ActualBuyPrice[12.71] 
+SellDate[2009-06-15] ExpectedSellPrice[14.28] ActualSellPrice[14.28] 
+
+StockCode[sz002069] StockName[獐 子 岛] Industry[农牧饲渔] 
+FocusDate[2009-05-05] FocusPrice[21.36] ExpectedBuyPrice[19.01] ExpectedSellPrice[21.36] 
+ClosePrice[39.19] BuyPriceRate[0.4850727226333249] 
+
+StockCode[sh600898] StockName[三联商社] Industry[商业百货] 
+FocusDate[2009-05-04] FocusPrice[6.09] ExpectedBuyPrice[5.42] ExpectedSellPrice[6.09] 
+BuyDate[2009-08-14] ExpectedBuyPrice[5.42] ActualBuyPrice[5.42] 
+SellDate[2009-11-16] ExpectedSellPrice[6.09] ActualSellPrice[6.09] 
+
+StockCode[sh600781] StockName[辅仁药业] Industry[医药行业] 
+FocusDate[2009-04-30] FocusPrice[7.98] ExpectedBuyPrice[7.1] ExpectedSellPrice[7.98] 
+BuyDate[2009-08-17] ExpectedBuyPrice[7.1] ActualBuyPrice[7.1] 
+SellDate[2009-09-18] ExpectedSellPrice[7.98] ActualSellPrice[7.98] 
+
+StockCode[sh600242] StockName[中昌海运] Industry[港口水运] 
+FocusDate[2009-04-29] FocusPrice[8.0] ExpectedBuyPrice[7.12] ExpectedSellPrice[8.0] 
+BuyDate[2009-05-11] ExpectedBuyPrice[7.12] ActualBuyPrice[6.99] 
+SellDate[2009-07-13] ExpectedSellPrice[8.0] ActualSellPrice[8.0] 
+
+StockCode[sh600588] StockName[用友网络] Industry[电子信息] 
+FocusDate[2009-04-28] FocusPrice[25.84] ExpectedBuyPrice[23.0] ExpectedSellPrice[25.84] 
+BuyDate[2009-04-29] ExpectedBuyPrice[23.0] ActualBuyPrice[19.75] 
+SellDate[2009-12-01] ExpectedSellPrice[25.84] ActualSellPrice[25.84] 
+
+StockCode[sz002166] StockName[莱茵生物] Industry[医药行业] 
+FocusDate[2009-04-27] FocusPrice[13.73] ExpectedBuyPrice[12.22] ExpectedSellPrice[13.73] 
+ClosePrice[30.95] BuyPriceRate[0.39483037156704365] 
+
+StockCode[sh600578] StockName[京能电力] Industry[电力行业] 
+FocusDate[2009-04-24] FocusPrice[9.23] ExpectedBuyPrice[8.21] ExpectedSellPrice[9.23] 
+BuyDate[2009-04-28] ExpectedBuyPrice[8.21] ActualBuyPrice[8.21] 
+SellDate[2009-04-30] ExpectedSellPrice[9.23] ActualSellPrice[9.23] 
+
+StockCode[sh600965] StockName[福成五丰] Industry[农牧饲渔] 
+FocusDate[2009-04-23] FocusPrice[6.62] ExpectedBuyPrice[5.89] ExpectedSellPrice[6.62] 
+BuyDate[2009-04-27] ExpectedBuyPrice[5.89] ActualBuyPrice[5.89] 
+SellDate[2009-07-09] ExpectedSellPrice[6.62] ActualSellPrice[6.62] 
+
+StockCode[sh600187] StockName[国中水务] Industry[公用事业] 
+FocusDate[2009-04-22] FocusPrice[10.26] ExpectedBuyPrice[9.13] ExpectedSellPrice[10.26] 
+BuyDate[2009-04-28] ExpectedBuyPrice[9.13] ActualBuyPrice[8.8] 
+ClosePrice[6.93] SellPriceRate[1.4805194805194806] 
+
+StockCode[sh600603] StockName[大洲兴业] Industry[房地产] 
+FocusDate[2009-04-21] FocusPrice[7.85] ExpectedBuyPrice[6.99] ExpectedSellPrice[7.85] 
+BuyDate[2009-04-28] ExpectedBuyPrice[6.99] ActualBuyPrice[6.73] 
+SellDate[2009-06-26] ExpectedSellPrice[7.85] ActualSellPrice[8.06] 
+
+StockCode[sh600115] StockName[东方航空] Industry[民航机场] 
+FocusDate[2009-04-20] FocusPrice[5.68] ExpectedBuyPrice[5.06] ExpectedSellPrice[5.68] 
+BuyDate[2009-04-23] ExpectedBuyPrice[5.06] ActualBuyPrice[5.0] 
+SellDate[2009-07-14] ExpectedSellPrice[5.68] ActualSellPrice[5.88] 
+
+StockCode[sh600369] StockName[西南证券] Industry[券商信托] 
+FocusDate[2009-04-17] FocusPrice[15.19] ExpectedBuyPrice[13.52] ExpectedSellPrice[15.19] 
+BuyDate[2009-04-22] ExpectedBuyPrice[13.52] ActualBuyPrice[13.52] 
+SellDate[2009-05-11] ExpectedSellPrice[15.19] ActualSellPrice[15.19] 
+
+StockCode[sh601727] StockName[上海电气] Industry[输配电气] 
+FocusDate[2009-04-16] FocusPrice[8.5] ExpectedBuyPrice[7.56] ExpectedSellPrice[8.5] 
+ClosePrice[9.1] BuyPriceRate[0.8307692307692307] 
+
+StockCode[sh600529] StockName[山东药玻] Industry[玻璃陶瓷] 
+FocusDate[2009-04-15] FocusPrice[12.62] ExpectedBuyPrice[11.23] ExpectedSellPrice[12.62] 
+BuyDate[2009-05-25] ExpectedBuyPrice[11.23] ActualBuyPrice[11.23] 
+SellDate[2009-07-06] ExpectedSellPrice[12.62] ActualSellPrice[12.62] 
+
+StockCode[sh600355] StockName[精伦电子] Industry[电子元件] 
+FocusDate[2009-04-14] FocusPrice[4.84] ExpectedBuyPrice[4.31] ExpectedSellPrice[4.84] 
+BuyDate[2009-04-27] ExpectedBuyPrice[4.31] ActualBuyPrice[4.31] 
+SellDate[2009-05-04] ExpectedSellPrice[4.84] ActualSellPrice[4.84] 
+
+StockCode[sz000536] StockName[华映科技] Industry[电子元件] 
+FocusDate[2009-04-13] FocusPrice[14.41] ExpectedBuyPrice[12.82] ExpectedSellPrice[14.41] 
+BuyDate[2009-04-27] ExpectedBuyPrice[12.82] ActualBuyPrice[12.82] 
+SellDate[2009-05-06] ExpectedSellPrice[14.41] ActualSellPrice[14.41] 
+
+StockCode[sz000596] StockName[古井贡酒] Industry[酿酒行业] 
+FocusDate[2009-04-10] FocusPrice[11.8] ExpectedBuyPrice[10.5] ExpectedSellPrice[11.8] 
+ClosePrice[36.39] BuyPriceRate[0.2885408079142622] 
+
+StockCode[sh600600] StockName[青岛啤酒] Industry[酿酒行业] 
+FocusDate[2009-04-09] FocusPrice[22.5] ExpectedBuyPrice[20.02] ExpectedSellPrice[22.5] 
+ClosePrice[34.94] BuyPriceRate[0.5729822552947911] 
+
+StockCode[sz000795] StockName[太原刚玉] Industry[材料行业] 
+FocusDate[2009-04-08] FocusPrice[4.39] ExpectedBuyPrice[3.91] ExpectedSellPrice[4.39] 
+ClosePrice[7.66] BuyPriceRate[0.5104438642297651] 
+
+StockCode[sz000650] StockName[仁和药业] Industry[医药行业] 
+FocusDate[2009-04-07] FocusPrice[12.98] ExpectedBuyPrice[11.55] ExpectedSellPrice[12.98] 
+ClosePrice[22.82] BuyPriceRate[0.5061349693251534] 
+
+StockCode[sh600666] StockName[西南药业] Industry[医药行业] 
+FocusDate[2009-04-03] FocusPrice[8.23] ExpectedBuyPrice[7.32] ExpectedSellPrice[8.23] 
+BuyDate[2009-08-17] ExpectedBuyPrice[7.32] ActualBuyPrice[7.32] 
+SellDate[2009-08-27] ExpectedSellPrice[8.23] ActualSellPrice[8.23] 
+
+StockCode[sz000008] StockName[宝利来] Industry[商业百货] 
+FocusDate[2009-04-02] FocusPrice[7.25] ExpectedBuyPrice[6.45] ExpectedSellPrice[7.25] 
+BuyDate[2009-04-28] ExpectedBuyPrice[6.45] ActualBuyPrice[6.45] 
+SellDate[2009-05-18] ExpectedSellPrice[7.25] ActualSellPrice[7.25] 
+
+StockCode[sz002111] StockName[威海广泰] Industry[机械行业] 
+FocusDate[2009-04-01] FocusPrice[17.11] ExpectedBuyPrice[15.23] ExpectedSellPrice[17.11] 
+BuyDate[2009-04-28] ExpectedBuyPrice[15.23] ActualBuyPrice[15.23] 
+SellDate[2009-05-06] ExpectedSellPrice[17.11] ActualSellPrice[17.11] 
+
+StockCode[sh600068] StockName[葛洲坝] Industry[工程建设] 
+FocusDate[2009-03-31] FocusPrice[11.14] ExpectedBuyPrice[9.91] ExpectedSellPrice[11.14] 
+ClosePrice[12.86] BuyPriceRate[0.7706065318818041] 
+
+StockCode[sz000760] StockName[斯太尔] Industry[汽车行业] 
+FocusDate[2009-03-30] FocusPrice[4.52] ExpectedBuyPrice[4.02] ExpectedSellPrice[4.52] 
+ClosePrice[7.88] BuyPriceRate[0.5101522842639593] 
+
+StockCode[sh600271] StockName[航天信息] Industry[电子信息] 
+FocusDate[2009-03-27] FocusPrice[26.57] ExpectedBuyPrice[23.65] ExpectedSellPrice[26.57] 
+BuyDate[2009-04-28] ExpectedBuyPrice[23.65] ActualBuyPrice[23.65] 
+ClosePrice[22.0] SellPriceRate[1.2077272727272728] 
+
+StockCode[sh601872] StockName[招商轮船] Industry[港口水运] 
+FocusDate[2009-03-26] FocusPrice[5.62] ExpectedBuyPrice[5.0] ExpectedSellPrice[5.62] 
+BuyDate[2009-08-25] ExpectedBuyPrice[5.0] ActualBuyPrice[5.0] 
+SellDate[2009-11-11] ExpectedSellPrice[5.62] ActualSellPrice[5.62] 
+
+StockCode[sz002207] StockName[准油股份] Industry[石油行业] 
+FocusDate[2009-03-25] FocusPrice[12.4] ExpectedBuyPrice[11.04] ExpectedSellPrice[12.4] 
+ClosePrice[19.84] BuyPriceRate[0.5564516129032258] 
+
+StockCode[sh600633] StockName[浙报传媒] Industry[文化传媒] 
+FocusDate[2009-03-24] FocusPrice[6.7] ExpectedBuyPrice[5.96] ExpectedSellPrice[6.7] 
+ClosePrice[6.83] BuyPriceRate[0.8726207906295754] 
+
+StockCode[sz000513] StockName[丽珠集团] Industry[医药行业] 
+FocusDate[2009-03-23] FocusPrice[21.28] ExpectedBuyPrice[18.94] ExpectedSellPrice[21.28] 
+ClosePrice[42.12] BuyPriceRate[0.44966761633428304] 
+
+StockCode[sz002228] StockName[合兴包装] Industry[造纸印刷] 
+FocusDate[2009-03-20] FocusPrice[17.35] ExpectedBuyPrice[15.44] ExpectedSellPrice[17.35] 
+BuyDate[2009-05-25] ExpectedBuyPrice[15.44] ActualBuyPrice[12.02] 
+ClosePrice[14.69] SellPriceRate[1.1810755616065352] 
+
+StockCode[sz002154] StockName[报 喜 鸟] Industry[纺织服装] 
+FocusDate[2009-03-19] FocusPrice[14.85] ExpectedBuyPrice[13.22] ExpectedSellPrice[14.85] 
+BuyDate[2009-05-27] ExpectedBuyPrice[13.22] ActualBuyPrice[12.1] 
+SellDate[2009-08-06] ExpectedSellPrice[14.85] ActualSellPrice[14.85] 
+
+StockCode[sz000982] StockName[中银绒业] Industry[纺织服装] 
+FocusDate[2009-03-18] FocusPrice[6.06] ExpectedBuyPrice[5.39] ExpectedSellPrice[6.06] 
+ClosePrice[12.62] BuyPriceRate[0.42709984152139463] 
+
+StockCode[sh600506] StockName[香梨股份] Industry[公用事业] 
+FocusDate[2009-03-17] FocusPrice[6.56] ExpectedBuyPrice[5.84] ExpectedSellPrice[6.56] 
+ClosePrice[10.36] BuyPriceRate[0.5637065637065637] 
+
+StockCode[sz000816] StockName[江淮动力] Industry[机械行业] 
+FocusDate[2009-03-16] FocusPrice[4.76] ExpectedBuyPrice[4.24] ExpectedSellPrice[4.76] 
+ClosePrice[6.86] BuyPriceRate[0.6180758017492711] 
+
+StockCode[sh600570] StockName[恒生电子] Industry[电子信息] 
+FocusDate[2009-03-13] FocusPrice[14.12] ExpectedBuyPrice[12.57] ExpectedSellPrice[14.12] 
+BuyDate[2009-04-23] ExpectedBuyPrice[12.57] ActualBuyPrice[11.47] 
+SellDate[2009-07-20] ExpectedSellPrice[14.12] ActualSellPrice[14.12] 
+
+StockCode[sh600897] StockName[厦门空港] Industry[民航机场] 
+FocusDate[2009-03-12] FocusPrice[15.57] ExpectedBuyPrice[13.86] ExpectedSellPrice[15.57] 
+ClosePrice[18.2] BuyPriceRate[0.7615384615384615] 
+
+StockCode[sz002197] StockName[证通电子] Industry[电子信息] 
+FocusDate[2009-03-11] FocusPrice[20.89] ExpectedBuyPrice[18.59] ExpectedSellPrice[20.89] 
+BuyDate[2009-06-19] ExpectedBuyPrice[18.59] ActualBuyPrice[18.59] 
+SellDate[2009-07-07] ExpectedSellPrice[20.89] ActualSellPrice[20.89] 
+
+StockCode[sz002006] StockName[精功科技] Industry[机械行业] 
+FocusDate[2009-03-10] FocusPrice[8.0] ExpectedBuyPrice[7.12] ExpectedSellPrice[8.0] 
+ClosePrice[13.63] BuyPriceRate[0.5223771093176816] 
+
+StockCode[sz002238] StockName[天威视讯] Industry[文化传媒] 
+FocusDate[2009-03-09] FocusPrice[13.05] ExpectedBuyPrice[11.61] ExpectedSellPrice[13.05] 
+ClosePrice[26.68] BuyPriceRate[0.4351574212893553] 
+
+StockCode[sh600717] StockName[天津港] Industry[港口水运] 
+FocusDate[2009-03-06] FocusPrice[11.92] ExpectedBuyPrice[10.61] ExpectedSellPrice[11.92] 
+BuyDate[2009-09-29] ExpectedBuyPrice[10.61] ActualBuyPrice[10.61] 
+SellDate[2009-11-06] ExpectedSellPrice[11.92] ActualSellPrice[11.92] 
+
+StockCode[sh600880] StockName[博瑞传播] Industry[文化传媒] 
+FocusDate[2009-03-05] FocusPrice[14.07] ExpectedBuyPrice[12.52] ExpectedSellPrice[14.07] 
+ClosePrice[28.89] BuyPriceRate[0.433367947386639] 
+
+StockCode[sh600892] StockName[宝诚股份] Industry[综合行业] 
+FocusDate[2009-03-04] FocusPrice[8.09] ExpectedBuyPrice[7.2] ExpectedSellPrice[8.09] 
+ClosePrice[17.63] BuyPriceRate[0.40839478162223486] 
+
+StockCode[sh600212] StockName[江泉实业] Industry[综合行业] 
+FocusDate[2009-03-03] FocusPrice[2.96] ExpectedBuyPrice[2.63] ExpectedSellPrice[2.96] 
+ClosePrice[5.12] BuyPriceRate[0.513671875] 
+
+StockCode[sz000625] StockName[长安汽车] Industry[汽车行业] 
+FocusDate[2009-03-02] FocusPrice[6.57] ExpectedBuyPrice[5.85] ExpectedSellPrice[6.57] 
+ClosePrice[12.18] BuyPriceRate[0.480295566502463] 
+
+StockCode[sz000020] StockName[深华发Ａ] Industry[电子元件] 
+FocusDate[2009-02-27] FocusPrice[3.6] ExpectedBuyPrice[3.2] ExpectedSellPrice[3.6] 
+ClosePrice[9.24] BuyPriceRate[0.3463203463203463] 
+
+StockCode[sh600869] StockName[智慧能源] Industry[输配电气] 
+FocusDate[2009-02-26] FocusPrice[13.76] ExpectedBuyPrice[12.25] ExpectedSellPrice[13.76] 
+BuyDate[2009-03-02] ExpectedBuyPrice[12.25] ActualBuyPrice[11.4] 
+SellDate[2009-03-05] ExpectedSellPrice[13.76] ActualSellPrice[13.76] 
+
+StockCode[sz002044] StockName[江苏三友] Industry[纺织服装] 
+FocusDate[2009-02-25] FocusPrice[4.95] ExpectedBuyPrice[4.41] ExpectedSellPrice[4.95] 
+BuyDate[2009-02-27] ExpectedBuyPrice[4.41] ActualBuyPrice[4.41] 
+SellDate[2009-03-27] ExpectedSellPrice[4.95] ActualSellPrice[4.95] 
+
+StockCode[sz002121] StockName[科陆电子] Industry[电子元件] 
+FocusDate[2009-02-24] FocusPrice[22.46] ExpectedBuyPrice[19.99] ExpectedSellPrice[22.46] 
+BuyDate[2009-02-26] ExpectedBuyPrice[19.99] ActualBuyPrice[19.99] 
+SellDate[2009-03-18] ExpectedSellPrice[22.46] ActualSellPrice[22.46] 
+
+StockCode[sh600383] StockName[金地集团] Industry[房地产] 
+FocusDate[2009-02-23] FocusPrice[8.99] ExpectedBuyPrice[8.0] ExpectedSellPrice[8.99] 
+BuyDate[2009-02-26] ExpectedBuyPrice[8.0] ActualBuyPrice[8.0] 
+SellDate[2009-03-05] ExpectedSellPrice[8.99] ActualSellPrice[9.11] 
+
+StockCode[sh600323] StockName[瀚蓝环境] Industry[公用事业] 
+FocusDate[2009-02-20] FocusPrice[9.15] ExpectedBuyPrice[8.14] ExpectedSellPrice[9.15] 
+ClosePrice[11.3] BuyPriceRate[0.720353982300885] 
+
+StockCode[sh600801] StockName[华新水泥] Industry[水泥建材] 
+FocusDate[2009-02-19] FocusPrice[22.69] ExpectedBuyPrice[20.19] ExpectedSellPrice[22.69] 
+BuyDate[2009-02-27] ExpectedBuyPrice[20.19] ActualBuyPrice[20.19] 
+SellDate[2009-03-02] ExpectedSellPrice[22.69] ActualSellPrice[22.69] 
+
+StockCode[sh600221] StockName[海南航空] Industry[民航机场] 
+FocusDate[2009-02-18] FocusPrice[4.49] ExpectedBuyPrice[4.0] ExpectedSellPrice[4.49] 
+BuyDate[2009-02-26] ExpectedBuyPrice[4.0] ActualBuyPrice[4.0] 
+SellDate[2009-03-26] ExpectedSellPrice[4.49] ActualSellPrice[4.49] 
+
+StockCode[sz002209] StockName[达 意 隆] Industry[机械行业] 
+FocusDate[2009-02-17] FocusPrice[11.39] ExpectedBuyPrice[10.14] ExpectedSellPrice[11.39] 
+BuyDate[2009-02-19] ExpectedBuyPrice[10.14] ActualBuyPrice[10.14] 
+SellDate[2009-03-06] ExpectedSellPrice[11.39] ActualSellPrice[11.39] 
+
+StockCode[sz000979] StockName[中弘股份] Industry[房地产] 
+FocusDate[2009-02-16] FocusPrice[4.91] ExpectedBuyPrice[4.37] ExpectedSellPrice[4.91] 
+ClosePrice[13.63] BuyPriceRate[0.3206162876008804] 
+
+StockCode[sz000040] StockName[宝安地产] Industry[综合行业] 
+FocusDate[2009-02-13] FocusPrice[4.86] ExpectedBuyPrice[4.33] ExpectedSellPrice[4.86] 
+ClosePrice[6.64] BuyPriceRate[0.6521084337349398] 
+
+StockCode[sh600150] StockName[中国船舶] Industry[交运设备] 
+FocusDate[2009-02-12] FocusPrice[58.48] ExpectedBuyPrice[52.05] ExpectedSellPrice[58.48] 
+BuyDate[2009-02-18] ExpectedBuyPrice[52.05] ActualBuyPrice[52.05] 
+SellDate[2009-03-24] ExpectedSellPrice[58.48] ActualSellPrice[58.8] 
+
+StockCode[sh600300] StockName[维维股份] Industry[食品行业] 
+FocusDate[2009-02-11] FocusPrice[6.37] ExpectedBuyPrice[5.67] ExpectedSellPrice[6.37] 
+BuyDate[2009-02-27] ExpectedBuyPrice[5.67] ActualBuyPrice[5.67] 
+SellDate[2009-03-04] ExpectedSellPrice[6.37] ActualSellPrice[6.37] 
+
+StockCode[sh600426] StockName[华鲁恒升] Industry[化工行业] 
+FocusDate[2009-02-10] FocusPrice[15.1] ExpectedBuyPrice[13.44] ExpectedSellPrice[15.1] 
+BuyDate[2009-02-12] ExpectedBuyPrice[13.44] ActualBuyPrice[13.44] 
+SellDate[2009-03-20] ExpectedSellPrice[15.1] ActualSellPrice[15.1] 
+
+StockCode[sh600804] StockName[鹏博士] Industry[电子信息] 
+FocusDate[2009-02-09] FocusPrice[11.7] ExpectedBuyPrice[10.41] ExpectedSellPrice[11.7] 
+BuyDate[2009-05-11] ExpectedBuyPrice[10.41] ActualBuyPrice[9.69] 
+SellDate[2009-11-20] ExpectedSellPrice[11.7] ActualSellPrice[11.7] 
+
+StockCode[sh600406] StockName[国电南瑞] Industry[输配电气] 
+FocusDate[2009-02-06] FocusPrice[24.55] ExpectedBuyPrice[21.85] ExpectedSellPrice[24.55] 
+BuyDate[2009-02-27] ExpectedBuyPrice[21.85] ActualBuyPrice[21.85] 
+SellDate[2009-03-30] ExpectedSellPrice[24.55] ActualSellPrice[24.55] 
+
+StockCode[sz000856] StockName[冀东装备] Industry[机械行业] 
+FocusDate[2009-02-05] FocusPrice[4.5] ExpectedBuyPrice[4.0] ExpectedSellPrice[4.5] 
+ClosePrice[6.95] BuyPriceRate[0.5755395683453237] 
+
+StockCode[sh600329] StockName[中新药业] Industry[医药行业] 
+FocusDate[2009-02-04] FocusPrice[9.9] ExpectedBuyPrice[8.81] ExpectedSellPrice[9.9] 
+ClosePrice[24.24] BuyPriceRate[0.3634488448844885] 
+
+StockCode[sz000002] StockName[万  科Ａ] Industry[房地产] 
+FocusDate[2009-02-03] FocusPrice[7.09] ExpectedBuyPrice[6.31] ExpectedSellPrice[7.09] 
+ClosePrice[9.34] BuyPriceRate[0.6755888650963597] 
+
+StockCode[sz000798] StockName[中水渔业] Industry[农牧饲渔] 
+FocusDate[2009-02-02] FocusPrice[5.72] ExpectedBuyPrice[5.09] ExpectedSellPrice[5.72] 
+ClosePrice[8.0] BuyPriceRate[0.63625] 
+
+StockCode[sh600104] StockName[上汽集团] Industry[汽车行业] 
+FocusDate[2009-01-23] FocusPrice[6.28] ExpectedBuyPrice[5.59] ExpectedSellPrice[6.28] 
+ClosePrice[20.13] BuyPriceRate[0.2776949826130154] 
+
+StockCode[sz000758] StockName[中色股份] Industry[有色金属] 
+FocusDate[2009-01-22] FocusPrice[8.22] ExpectedBuyPrice[7.32] ExpectedSellPrice[8.22] 
+ClosePrice[13.22] BuyPriceRate[0.5537065052950075] 
+
+StockCode[sh600711] StockName[盛屯矿业] Industry[有色金属] 
+FocusDate[2009-01-21] FocusPrice[5.9] ExpectedBuyPrice[5.25] ExpectedSellPrice[5.9] 
+ClosePrice[10.55] BuyPriceRate[0.4976303317535545] 
+
+StockCode[sz000652] StockName[泰达股份] Industry[综合行业] 
+FocusDate[2009-01-20] FocusPrice[5.86] ExpectedBuyPrice[5.22] ExpectedSellPrice[5.86] 
+ClosePrice[7.72] BuyPriceRate[0.6761658031088082] 
+
+StockCode[sz000739] StockName[普洛药业] Industry[医药行业] 
+FocusDate[2009-01-19] FocusPrice[4.9] ExpectedBuyPrice[4.36] ExpectedSellPrice[4.9] 
+ClosePrice[9.05] BuyPriceRate[0.481767955801105] 
+
+StockCode[sz000848] StockName[承德露露] Industry[食品行业] 
+FocusDate[2009-01-16] FocusPrice[15.8] ExpectedBuyPrice[14.06] ExpectedSellPrice[15.8] 
+BuyDate[2009-08-25] ExpectedBuyPrice[14.06] ActualBuyPrice[14.06] 
+SellDate[2009-09-18] ExpectedSellPrice[15.8] ActualSellPrice[15.88] 
+
+StockCode[sz000546] StockName[金圆股份] Industry[房地产] 
+FocusDate[2009-01-15] FocusPrice[6.65] ExpectedBuyPrice[5.92] ExpectedSellPrice[6.65] 
+BuyDate[2009-01-19] ExpectedBuyPrice[5.92] ActualBuyPrice[5.92] 
+SellDate[2009-02-11] ExpectedSellPrice[6.65] ActualSellPrice[6.65] 
+
+StockCode[sz000953] StockName[河池化工] Industry[化工行业] 
+FocusDate[2009-01-14] FocusPrice[4.73] ExpectedBuyPrice[4.21] ExpectedSellPrice[4.73] 
+BuyDate[2009-02-27] ExpectedBuyPrice[4.21] ActualBuyPrice[4.21] 
+SellDate[2009-03-05] ExpectedSellPrice[4.73] ActualSellPrice[4.73] 
+
+StockCode[sh600240] StockName[华业地产] Industry[房地产] 
+FocusDate[2009-01-13] FocusPrice[3.56] ExpectedBuyPrice[3.17] ExpectedSellPrice[3.56] 
+ClosePrice[7.23] BuyPriceRate[0.43845089903181184] 
+
+StockCode[sz002075] StockName[沙钢股份] Industry[钢铁行业] 
+FocusDate[2009-01-12] FocusPrice[3.43] ExpectedBuyPrice[3.05] ExpectedSellPrice[3.43] 
+ClosePrice[5.82] BuyPriceRate[0.5240549828178693] 
+
+StockCode[sh600421] StockName[仰帆控股] Industry[医药行业] 
+FocusDate[2009-01-09] FocusPrice[2.6] ExpectedBuyPrice[2.31] ExpectedSellPrice[2.6] 
+ClosePrice[8.15] BuyPriceRate[0.28343558282208586] 
+
+StockCode[sh600083] StockName[博信股份] Industry[电子元件] 
+FocusDate[2009-01-08] FocusPrice[3.1] ExpectedBuyPrice[2.76] ExpectedSellPrice[3.1] 
+ClosePrice[7.67] BuyPriceRate[0.3598435462842242] 
+
+StockCode[sz002258] StockName[利尔化学] Industry[化工行业] 
+FocusDate[2009-01-07] FocusPrice[16.08] ExpectedBuyPrice[14.31] ExpectedSellPrice[16.08] 
+ClosePrice[23.5] BuyPriceRate[0.608936170212766] 
+
+StockCode[sh600452] StockName[涪陵电力] Industry[电力行业] 
+FocusDate[2009-01-06] FocusPrice[4.87] ExpectedBuyPrice[4.33] ExpectedSellPrice[4.87] 
+ClosePrice[8.94] BuyPriceRate[0.48434004474272935] 
+
+StockCode[sz002002] StockName[鸿达兴业] Industry[塑胶制品] 
+FocusDate[2009-01-05] FocusPrice[2.95] ExpectedBuyPrice[2.63] ExpectedSellPrice[2.95] 
+ClosePrice[11.24] BuyPriceRate[0.23398576512455516] 
+
+StockCode[sz000045] StockName[深纺织Ａ] Industry[纺织服装] 
+FocusDate[2008-12-31] FocusPrice[4.84] ExpectedBuyPrice[4.31] ExpectedSellPrice[4.84] 
+ClosePrice[13.66] BuyPriceRate[0.31551976573938506] 
+
+StockCode[sz000022] StockName[深赤湾Ａ] Industry[港口水运] 
+FocusDate[2008-12-30] FocusPrice[9.9] ExpectedBuyPrice[8.81] ExpectedSellPrice[9.9] 
+ClosePrice[15.23] BuyPriceRate[0.5784635587655942] 
+
+StockCode[sh600858] StockName[银座股份] Industry[商业百货] 
+FocusDate[2008-12-29] FocusPrice[16.27] ExpectedBuyPrice[14.48] ExpectedSellPrice[16.27] 
+BuyDate[2009-03-10] ExpectedBuyPrice[14.48] ActualBuyPrice[14.48] 
+SellDate[2009-03-20] ExpectedSellPrice[16.27] ActualSellPrice[16.27] 
+
+StockCode[sh600486] StockName[扬农化工] Industry[化工行业] 
+FocusDate[2008-12-26] FocusPrice[25.45] ExpectedBuyPrice[22.65] ExpectedSellPrice[25.45] 
+ClosePrice[41.96] BuyPriceRate[0.5397998093422306] 
+
+StockCode[sz002032] StockName[苏 泊 尔] Industry[家电行业] 
+FocusDate[2008-12-25] FocusPrice[13.37] ExpectedBuyPrice[11.9] ExpectedSellPrice[13.37] 
+BuyDate[2009-01-08] ExpectedBuyPrice[11.9] ActualBuyPrice[11.9] 
+SellDate[2009-02-05] ExpectedSellPrice[13.37] ActualSellPrice[13.37] 
+
+StockCode[sz000793] StockName[华闻传媒] Industry[文化传媒] 
+FocusDate[2008-12-24] FocusPrice[3.59] ExpectedBuyPrice[3.2] ExpectedSellPrice[3.59] 
+BuyDate[2008-12-26] ExpectedBuyPrice[3.2] ActualBuyPrice[3.2] 
+SellDate[2009-01-15] ExpectedSellPrice[3.59] ActualSellPrice[3.59] 
+
+StockCode[sz002023] StockName[海特高新] Industry[航天航空] 
+FocusDate[2008-12-23] FocusPrice[5.26] ExpectedBuyPrice[4.68] ExpectedSellPrice[5.26] 
+BuyDate[2008-12-29] ExpectedBuyPrice[4.68] ActualBuyPrice[4.68] 
+SellDate[2009-01-12] ExpectedSellPrice[5.26] ActualSellPrice[5.26] 
+
+StockCode[sh600877] StockName[中国嘉陵] Industry[交运设备] 
+FocusDate[2008-12-22] FocusPrice[3.0] ExpectedBuyPrice[2.67] ExpectedSellPrice[3.0] 
+BuyDate[2008-12-29] ExpectedBuyPrice[2.67] ActualBuyPrice[2.67] 
+SellDate[2009-01-07] ExpectedSellPrice[3.0] ActualSellPrice[3.0] 
+
+StockCode[sh600368] StockName[五洲交通] Industry[高速公路] 
+FocusDate[2008-12-19] FocusPrice[5.51] ExpectedBuyPrice[4.9] ExpectedSellPrice[5.51] 
+BuyDate[2008-12-23] ExpectedBuyPrice[4.9] ActualBuyPrice[4.9] 
+SellDate[2009-02-10] ExpectedSellPrice[5.51] ActualSellPrice[5.51] 
+
+StockCode[sz000829] StockName[天音控股] Industry[通讯行业] 
+FocusDate[2008-12-18] FocusPrice[3.82] ExpectedBuyPrice[3.4] ExpectedSellPrice[3.82] 
+BuyDate[2008-12-29] ExpectedBuyPrice[3.4] ActualBuyPrice[3.4] 
+SellDate[2009-01-16] ExpectedSellPrice[3.82] ActualSellPrice[3.82] 
+
+StockCode[sh600797] StockName[浙大网新] Industry[电子信息] 
+FocusDate[2008-12-17] FocusPrice[3.86] ExpectedBuyPrice[3.44] ExpectedSellPrice[3.86] 
+BuyDate[2008-12-25] ExpectedBuyPrice[3.44] ActualBuyPrice[3.44] 
+SellDate[2009-01-21] ExpectedSellPrice[3.86] ActualSellPrice[3.86] 
+
+StockCode[sz000513] StockName[丽珠集团] Industry[医药行业] 
+FocusDate[2008-12-16] FocusPrice[16.25] ExpectedBuyPrice[14.46] ExpectedSellPrice[16.25] 
+ClosePrice[42.12] BuyPriceRate[0.34330484330484334] 
+
+StockCode[sh600855] StockName[航天长峰] Industry[机械行业] 
+FocusDate[2008-12-15] FocusPrice[4.35] ExpectedBuyPrice[3.87] ExpectedSellPrice[4.35] 
+BuyDate[2008-12-25] ExpectedBuyPrice[3.87] ActualBuyPrice[3.87] 
+SellDate[2008-12-30] ExpectedSellPrice[4.35] ActualSellPrice[4.35] 
+
+StockCode[sh600724] StockName[宁波富达] Industry[房地产] 
+FocusDate[2008-12-12] FocusPrice[4.39] ExpectedBuyPrice[3.91] ExpectedSellPrice[4.39] 
+BuyDate[2008-12-23] ExpectedBuyPrice[3.91] ActualBuyPrice[3.91] 
+SellDate[2009-01-06] ExpectedSellPrice[4.39] ActualSellPrice[4.39] 
+
+StockCode[sh600898] StockName[三联商社] Industry[商业百货] 
+FocusDate[2008-12-11] FocusPrice[4.85] ExpectedBuyPrice[4.32] ExpectedSellPrice[4.85] 
+BuyDate[2008-12-15] ExpectedBuyPrice[4.32] ActualBuyPrice[4.32] 
+SellDate[2008-12-18] ExpectedSellPrice[4.85] ActualSellPrice[4.85] 
+
+StockCode[sh600195] StockName[中牧股份] Industry[医药行业] 
+FocusDate[2008-12-10] FocusPrice[11.52] ExpectedBuyPrice[10.25] ExpectedSellPrice[11.52] 
+BuyDate[2008-12-15] ExpectedBuyPrice[10.25] ActualBuyPrice[10.25] 
+SellDate[2008-12-17] ExpectedSellPrice[11.52] ActualSellPrice[11.52] 
+
+StockCode[sh600678] StockName[四川金顶] Industry[水泥建材] 
+FocusDate[2008-12-09] FocusPrice[6.16] ExpectedBuyPrice[5.48] ExpectedSellPrice[6.16] 
+BuyDate[2008-12-12] ExpectedBuyPrice[5.48] ActualBuyPrice[5.48] 
+SellDate[2009-01-15] ExpectedSellPrice[6.16] ActualSellPrice[6.16] 
+
+StockCode[sz000848] StockName[承德露露] Industry[食品行业] 
+FocusDate[2008-12-08] FocusPrice[15.55] ExpectedBuyPrice[13.84] ExpectedSellPrice[15.55] 
+BuyDate[2008-12-12] ExpectedBuyPrice[13.84] ActualBuyPrice[13.84] 
+SellDate[2008-12-18] ExpectedSellPrice[15.55] ActualSellPrice[15.55] 
+
+StockCode[sz000526] StockName[银润投资] Industry[房地产] 
+FocusDate[2008-12-05] FocusPrice[4.33] ExpectedBuyPrice[3.85] ExpectedSellPrice[4.33] 
+BuyDate[2008-12-29] ExpectedBuyPrice[3.85] ActualBuyPrice[3.85] 
+SellDate[2009-01-07] ExpectedSellPrice[4.33] ActualSellPrice[4.33] 
+
+StockCode[sh600169] StockName[太原重工] Industry[机械行业] 
+FocusDate[2008-12-04] FocusPrice[15.38] ExpectedBuyPrice[13.69] ExpectedSellPrice[15.38] 
+BuyDate[2008-12-25] ExpectedBuyPrice[13.69] ActualBuyPrice[13.69] 
+SellDate[2009-01-06] ExpectedSellPrice[15.38] ActualSellPrice[15.38] 
+
+StockCode[sh600792] StockName[云煤能源] Industry[煤炭采选] 
+FocusDate[2008-12-03] FocusPrice[8.02] ExpectedBuyPrice[7.14] ExpectedSellPrice[8.02] 
+BuyDate[2008-12-29] ExpectedBuyPrice[7.14] ActualBuyPrice[7.14] 
+SellDate[2009-01-21] ExpectedSellPrice[8.02] ActualSellPrice[8.02] 
+
+[buyRate]0.89-[sellRate]1.0-[focus]285-[buy]157-[sell]127
