@@ -52,7 +52,6 @@
                         <td data-bind="text: sellDate"></td>
                         <td
                             data-bind="text: actualSellPrice, style: { color: ( '' == sellDate ? 'red' : '' ) }"></td>
-                        -->
                     </tr>
                 </tbody>
             </table>
@@ -62,6 +61,7 @@
                     var stocks = [];
 
                     var url = purl();
+                    window.year = url.param("year") || "2015";
                     var stock = url.param("stock");
                     if (null == stock) {
                         window.location = "stocks.html";
@@ -78,11 +78,12 @@
                             ko.applyBindings(stocks);
                             return;
                         }
-                        jQuery.get(files[i], function(data) {
-                            i++;
-                            stocks.push(data);
-                            getStockJson(i);
-                        });
+                        jQuery.get(window.year + "/" + files[i],
+                                function(data) {
+                                    i++;
+                                    stocks.push(data);
+                                    getStockJson(i);
+                                });
                     }
 
                     getStockJson(0);

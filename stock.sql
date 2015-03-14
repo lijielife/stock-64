@@ -539,3 +539,16 @@ SELECT MarketDate, Open, Close, Hign, Low, Volume, Amount, HignRate, LowRate, Pr
 SELECT COUNT(1) FROM `test`.`markethistory`;
 SELECT COUNT(1) FROM `stock`.`markethistory_2013`;
 
+SELECT `Stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
+FROM `MarketHistory_2012` INNER JOIN `Stock` ON `MarketHistory_2012`.`StockCode` = `Stock`.`StockCode`
+WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
+AND `MarketDate` = '2012-06-06' AND `Stock`.`StockCode` NOT LIKE 'sz3%'
+ORDER BY `VolumeRate` DESC, `Stock`.`StockCode`
+LIMIT 0, 1;
+
+SELECT DISTINCT(`MarketDate`)
+FROM `stock`.`MarketHistory_2012` 
+WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1;
+
+AND `MarketDate` = '2011-12-02' 
+ORDER BY `VolumeRate` DESC, `StockCode`;

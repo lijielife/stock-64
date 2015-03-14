@@ -20,15 +20,16 @@
                 <button type="button" class="btn btn-default"
                     onclick="showSelled();">显示已经卖的</button>
                 <a class="btn btn-link"
-                    href="stocks.html?json=statistics.b[0.0].s[0.0].json">0-0</a>
-                <a class="btn btn-link"
-                    href="stocks.html?json=statistics.b[0.89].s[1.0].json">0.89-1.0</a>
-                <a class="btn btn-link"
-                    href="stocks.html?json=statistics.b[0.9].s[1.0].json">0.9-1.0</a>
-                <a class="btn btn-link"
-                    href="stocks.html?json=statistics.b[0.9].s[1.01].json">0.9-1.01</a>
-                <a class="btn btn-link"
-                    href="stocks.html?json=statistics.b[0.89].s[1.01].json">0.89-1.01</a>
+                    onclick="swithrate('statistics.b[0.0].s[0.0].json')"
+                    href="#">0-0</a> <a class="btn btn-link"
+                    onclick="swithrate('statistics.b[0.89].s[1.0].json')"
+                    href="#">0.89-1.0</a> <a class="btn btn-link"
+                    onclick="swithrate('statistics.b[0.9].s[1.0].json')"
+                    href="#">0.9-1.0</a> <a class="btn btn-link"
+                    onclick="swithrate('statistics.b[0.9].s[1.01].json')"
+                    href="#">0.9-1.01</a> <a class="btn btn-link"
+                    onclick="swithrate('statistics.b[0.89].s[1.01].json')"
+                    href="#">0.89-1.01</a>
             </div>
         </div>
         <div class="row">
@@ -53,21 +54,20 @@
                 </thead>
                 <tbody data-bind="foreach: { data: $root }">
                     <tr>
-                        <td><a target="_blank"
-                            data-bind="text: ($index()+1), attr: { href: ( 'stock.html?json=stock.'+buyRate+'.'+sellRate+'.'+stockCode+'.'+focusDate+'.json' ) }"></a></td>
+                        <td data-bind="text: ($index()+1)"></td>
                         <td><a target="_blank"
                             data-bind="text: stockCode, attr: { href: ( 'http://finance.sina.com.cn/realstock/company/'+stockCode+'/nc.shtml' ) }"></a></td>
                         <td><a target="_blank"
-                            data-bind="text: stockName, attr: { href: ( 'stocks2.html?stock='+stockCode+'.'+focusDate ) }"></a></td>
+                            data-bind="text: stockName, attr: { href: ( 'stock.html?year='+window.year+'&json=stock.'+buyRate+'.'+sellRate+'.'+stockCode+'.'+focusDate+'.json' ) }"></a></td>
                         <td data-bind="text: industry"></td>
                         <td data-bind="text: closePrice"
                             style="color: blue;"></td>
                         <td data-bind="text: lowPrice"
                             style="color: blue;"></td>
                         <td data-bind="text: focusDate"></td>
-                        <td data-bind="text: focusClose"
-                            style="color: blue;"></td>
-
+                        <td><a target="_blank"
+                            data-bind="text: focusClose, attr: { href: ( 'stocks2.html?year='+window.year+'&stock='+stockCode+'.'+focusDate ) }"
+                            style="color: blue;"></a></td>
                         <td data-bind="text: expectedBuyPrice"
                             style="color: green"></td>
                         <td data-bind="text: expectedSellPrice"
@@ -86,6 +86,11 @@
     <script type="text/javascript">
                     var stocks = ko.observableArray();
                     var allStocks = [];
+
+                    function swithrate(jsonfile) {
+                        window.location = "stocks.html?json=" + jsonfile
+                                + "&year=" + window.year;
+                    }
 
                     function showAll() {
                         stocks.removeAll();
@@ -134,8 +139,10 @@
 
                     ko.applyBindings(stocks);
                     var url = purl();
-                    var jsonfile = url.param("json")
-                            || "statistics.b[0.9].s[1.0].json";
+                    window.year = url.param("year") || "2015";
+                    var jsonfile = year
+                            + "/"
+                            + (url.param("json") || "statistics.b[0.9].s[1.0].json");
 
                     jQuery
                             .get(

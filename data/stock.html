@@ -24,7 +24,8 @@
             </thead>
             <tbody data-bind="foreach: { data: $root }">
                 <tr>
-                    <td data-bind="text: getRowSequence(($index()+1),$data[6]), style: { color: getColor($data[6]) }"></td>
+                    <td
+                        data-bind="text: getRowSequence(($index()+1),$data[6]), style: { color: getColor($data[6]) }"></td>
                     <td
                         data-bind="text: $data[6], style: { color: getColor($data[6]) }"></td>
                     <td
@@ -40,7 +41,7 @@
         </table>
     </div>
     <script type="text/javascript">
-                    function getRowSequence(rowindex,date) {
+                    function getRowSequence(rowindex, date) {
                         if (window.stock.focusdate == date) {
                             return window.stock.focusprice;
                         }
@@ -66,13 +67,14 @@
                     }
 
                     var url = purl();
+                    window.year = url.param("year") || "2015";
                     var jsonfile = url.param("json");
 
                     if (jsonfile == null) {
                         window.location = "stocks.html";
                     }
 
-                    $.getJSON(jsonfile, function(stock) {
+                    $.getJSON(window.year + "/" + jsonfile, function(stock) {
                         window.stock = stock;
                         var data = stock.data;
                         data.pop();
