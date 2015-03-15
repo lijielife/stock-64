@@ -109,11 +109,34 @@ SELECT `StockCode`, `MarketDate`, `Close`, `PreClose`, `Volume`, `PreVolume`, `R
 FROM `stock`.`MarketHistory_2014`
 WHERE `Rate` > 1 AND `VolumeRate` > 1 AND `MarketDate` = '2003-01-14';
 
-SELECT `MarketHistory`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
-FROM `MarketHistory` INNER JOIN `Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
+SELECT * FROM `stock`.`nanhuacrabstore_2014` WHERE `BuyRate` = 0 AND `SellRate` = 0 ORDER BY `FocusDate`;
+SELECT * FROM `stock`.`nanhuacrabstore` WHERE `BuyRate` = 0 AND `SellRate` = 0 ORDER BY `FocusDate`;
+SELECT * FROM `stock`.`MarketHistory_2014` WHERE `MarketDate` = '2014-01-02' AND `StockCode` IN ( 'sh600345', 'sh600038' );
+SELECT * FROM `stock`.`MarketHistory` WHERE `MarketDate` = '2014-01-02' AND `StockCode` IN ( 'sh600345', 'sh600038' );
+
+SELECT * FROM `stock`.`nanhuacrabstore` WHERE `FocusDate` < '2014-12-01';
+DELETE FROM `stock`.`nanhuacrabstore` WHERE `FocusDate` < '2014-12-01';
+
+SELECT * FROM `stock`.`MarketHistory` WHERE `MarketDate` < '2014-12-01';
+DELETE FROM `stock`.`MarketHistory` WHERE `MarketDate` < '2014-12-01';
+
+SELECT * FROM `stock`.`MarketHistory` WHERE `StockCode` = 'sh600066' ORDER BY `MarketDate`;
+
+
+SELECT `Stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, 
+		`PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
+FROM `stock`.`MarketHistory_2014` AS `MarketHistory` INNER JOIN `stock`.`Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
-AND `MarketDate` = '2008-09-23' AND `MarketHistory`.`StockCode` NOT LIKE 'sz3%'
-ORDER BY `VolumeRate` DESC, `MarketHistory`.`StockCode`
+AND `MarketDate` = '2014-01-02' AND `Stock`.`StockCode` NOT LIKE 'sz3%'
+ORDER BY `VolumeRate` DESC, `Stock`.`StockCode`
+LIMIT 0, 1;
+
+SELECT `Stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, 
+		`PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
+FROM `stock`.`MarketHistory` AS `MarketHistory` INNER JOIN `stock`.`Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
+WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
+AND `MarketDate` = '2014-01-02' AND `Stock`.`StockCode` NOT LIKE 'sz3%'
+ORDER BY `VolumeRate` DESC, `Stock`.`StockCode`
 LIMIT 0, 1;
 
 -- 关注日期 1415 spend 85 seconds

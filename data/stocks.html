@@ -50,6 +50,8 @@
                         <th>Actual Buy Price</th>
                         <th>Sell Date</th>
                         <th>Actual Sell Price</th>
+                        <th class="nanhuacrab" style="display: none">Buy
+                            Count</th>
                     </tr>
                 </thead>
                 <tbody data-bind="foreach: { data: $root }">
@@ -78,6 +80,9 @@
                         <td data-bind="text: sellDate"></td>
                         <td
                             data-bind="text: actualSellPrice, style: { color: ( '' == sellDate ? 'red' : '' ) }"></td>
+                        <td class="nanhuacrab"
+                            data-bind="text: buyCount, style: { display: ( window.isShowAllColumns ? '' : 'none' ) }"></td>
+                        <td class="nanhuacrab" data-bind="text: amount"></td>
                     </tr>
                 </tbody>
             </table>
@@ -153,6 +158,16 @@
                                         jQuery(data)
                                                 .each(
                                                         function(index, stock) {
+                                                            stock.buyCount = Math
+                                                                    .floor(40 / stock.expectedBuyPrice) * 100;
+                                                            if (0 == stock.buyCount) {
+                                                                stock.buyCount = 100;
+                                                            }
+
+                                                            stock.amount = Math
+                                                                    .floor(stock.buyCount
+                                                                            * (stock.expectedSellPrice - stock.expectedBuyPrice)) - 25;
+
                                                             if (stock.buyDate) {
                                                                 buyQuantity++;
                                                             }
@@ -191,6 +206,12 @@
                                     }).done(function() {
                                 showPrepareBuy();
                             });
+
+                    var isShowAllColumns = true;
+                    function showAllColumns() {
+                        isShowAllColumns = true;
+                        jQuery(".nanhuacrab").show();
+                    }
                 </script>
 </body>
 </html>
