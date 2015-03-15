@@ -54,7 +54,7 @@ UPDATE `stock`.`MarketHistory_2000`
 SET `VolumeRate` = `Volume` / `PreVolume` 
 WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
 
--- 2084 spend 208 seconds
+-- 1948 spend 208 seconds
 SELECT COUNT(1) FROM `stock`.`MarketHistory_2000` WHERE `PreRate` IS NULL;
 
 SELECT `StockCode` 
@@ -64,12 +64,12 @@ GROUP BY `StockCode`
 HAVING COUNT(1) < 2
 ORDER BY `StockCode`, `MarketDate`;
 
-SELECT * FROM `stock`.`MarketHistory_2000` WHERE `StockCode` IN ( 'sh600317' ) ORDER BY `MarketDate`;
+SELECT * FROM `stock`.`MarketHistory_2000` WHERE `StockCode` IN ( 'sh600313' ) ORDER BY `MarketDate`;
 
--- 历史纪录的天数 281
+-- 历史纪录的天数 274
 SELECT COUNT(1) FROM ( SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2000` ) AS T;
 
--- 历史纪录中有效的天数 279
+-- 历史纪录中有效的天数 271
 SELECT DISTINCT(`MarketDate`)
 FROM `stock`.`MarketHistory_2000` 
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
@@ -86,7 +86,7 @@ SELECT `StockCode`, `MarketDate`, `Close`, `PreClose`, `Volume`, `PreVolume`, `R
 FROM `stock`.`MarketHistory_2000` WHERE `StockCode` = 'sz000678' 
 ORDER BY `MarketDate`;
 
--- 历史纪录中有效的天数 1395 5X
+-- 历史纪录中有效的天数 1355 5X
 SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2000`;
 
 -- 2666
