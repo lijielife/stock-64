@@ -1,112 +1,112 @@
 
--- copy 历史数据 2001 277702
+-- copy 历史数据 2000 239582
 SELECT COUNT(1) FROM `test`.`stocktransactiondetail` 
-WHERE `TransactionDate` >= '2000-12-01' AND `TransactionDate` < '2002-02-01';
--- TRUNCATE `stock`.`MarketHistory_2001`;
-INSERT INTO `stock`.`MarketHistory_2001` ( `StockCode`, `MarketDate`, `PreClose`, `Open`, `Close`, `Hign`, `Low`, `Volume`, `Amount` )
+WHERE `TransactionDate` >= '1999-12-01' AND `TransactionDate` < '2001-02-01';
+-- TRUNCATE `stock`.`MarketHistory_2000`;
+INSERT INTO `stock`.`MarketHistory_2000` ( `StockCode`, `MarketDate`, `PreClose`, `Open`, `Close`, `Hign`, `Low`, `Volume`, `Amount` )
 SELECT `Code`, `TransactionDate`, -999, `BeginPrice`, `EndPrice`, `HighestPrice`, `LowestPrice`, `Volume`, `TransactionMoney`
 FROM `test`.`stocktransactiondetail` 
-WHERE `TransactionDate` >= '2000-12-01' AND `TransactionDate` < '2002-02-01';
+WHERE `TransactionDate` >= '1999-12-01' AND `TransactionDate` < '2001-02-01';
 
-SELECT COUNT(1) FROM `stock`.`MarketHistory_2001`;
+SELECT COUNT(1) FROM `stock`.`MarketHistory_2000`;
 
-SELECT MIN(`StockCode`), MAX(`StockCode`) FROM `stock`.`MarketHistory_2001` WHERE `StockCode` >= '600000';
+SELECT MIN(`StockCode`), MAX(`StockCode`) FROM `stock`.`MarketHistory_2000` WHERE `StockCode` >= '600000';
 
-UPDATE `stock`.`MarketHistory_2001`
+UPDATE `stock`.`MarketHistory_2000`
 SET `StockCode` = CONCAT('sh', `StockCode` )
 WHERE `StockCode` >= '600000';
 
-SELECT MIN(`StockCode`), MAX(`StockCode`) FROM `stock`.`MarketHistory_2001` WHERE `StockCode` < '600000';
+SELECT MIN(`StockCode`), MAX(`StockCode`) FROM `stock`.`MarketHistory_2000` WHERE `StockCode` < '600000';
 
-UPDATE `stock`.`MarketHistory_2001`
+UPDATE `stock`.`MarketHistory_2000`
 SET `StockCode` = CONCAT('sz', `StockCode` )
 WHERE `StockCode` < '600000';
 
-SELECT MIN(`StockCode`), MAX(`StockCode`) FROM `stock`.`MarketHistory_2001`;
+SELECT MIN(`StockCode`), MAX(`StockCode`) FROM `stock`.`MarketHistory_2000`;
 
--- 277702
-SELECT COUNT(1) FROM `stock`.`MarketHistory_2001`;
+-- 239582
+SELECT COUNT(1) FROM `stock`.`MarketHistory_2000`;
 
-SELECT MIN(`MarketDate`), MAX(`MarketDate`) FROM `stock`.`MarketHistory_2001`;
+SELECT MIN(`MarketDate`), MAX(`MarketDate`) FROM `stock`.`MarketHistory_2000`;
 
--- 查询结果 1042
-SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2001`;
-SELECT COUNT(1) FROM ( SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2001` ) AS T;
+-- 查询结果 974
+SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2000`;
+SELECT COUNT(1) FROM ( SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2000` ) AS T;
 
 -- 更新 PreClose / PreVolume spend 185 seconds
 SELECT `StockCode`, `MarketDate`, `Close`, `PreClose`, `Volume`, `PreVolume`, `Rate`, `PreRate`, `VolumeRate` 
-FROM `stock`.`MarketHistory_2001` WHERE `StockCode` = 'sz000678' 
+FROM `stock`.`MarketHistory_2000` WHERE `StockCode` = 'sz000678' 
 ORDER BY `MarketDate`;
 
-SELECT COUNT(1) FROM `stock`.`MarketHistory_2001` WHERE `PreClose` = -999;
+SELECT COUNT(1) FROM `stock`.`MarketHistory_2000` WHERE `PreClose` = -999;
 
 -- 更新 Rate
-SELECT COUNT(1) FROM `stock`.`MarketHistory_2001` WHERE `Rate` IS NULL;
+SELECT COUNT(1) FROM `stock`.`MarketHistory_2000` WHERE `Rate` IS NULL;
 
-UPDATE `stock`.`MarketHistory_2001` 
+UPDATE `stock`.`MarketHistory_2000` 
 SET `Rate` = `Close` / `PreClose` 
 WHERE `PreClose` != -999;
 
 -- 更新 VolumeRate
-SELECT COUNT(1) FROM `stock`.`MarketHistory_2001` WHERE `VolumeRate` IS NULL;
+SELECT COUNT(1) FROM `stock`.`MarketHistory_2000` WHERE `VolumeRate` IS NULL;
 
-UPDATE `stock`.`MarketHistory_2001` 
+UPDATE `stock`.`MarketHistory_2000` 
 SET `VolumeRate` = `Volume` / `PreVolume` 
 WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
 
--- 2218 spend 208 seconds
-SELECT COUNT(1) FROM `stock`.`MarketHistory_2001` WHERE `PreRate` IS NULL;
+-- 2084 spend 208 seconds
+SELECT COUNT(1) FROM `stock`.`MarketHistory_2000` WHERE `PreRate` IS NULL;
 
 SELECT `StockCode` 
-FROM `stock`.`MarketHistory_2001` 
+FROM `stock`.`MarketHistory_2000` 
 WHERE `PreRate` IS NULL
 GROUP BY `StockCode`
 HAVING COUNT(1) < 2
 ORDER BY `StockCode`, `MarketDate`;
 
-SELECT * FROM `stock`.`MarketHistory_2001` WHERE `StockCode` IN ( 'sh600249', 'sz000100' ) ORDER BY `MarketDate`;
+SELECT * FROM `stock`.`MarketHistory_2000` WHERE `StockCode` IN ( 'sh600317' ) ORDER BY `MarketDate`;
 
--- 历史纪录的天数 278
-SELECT COUNT(1) FROM ( SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2001` ) AS T;
+-- 历史纪录的天数 281
+SELECT COUNT(1) FROM ( SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2000` ) AS T;
 
--- 历史纪录中有效的天数 275
+-- 历史纪录中有效的天数 279
 SELECT DISTINCT(`MarketDate`)
-FROM `stock`.`MarketHistory_2001` 
+FROM `stock`.`MarketHistory_2000` 
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
 ORDER BY `MarketDate`;
 
 SELECT COUNT(1) FROM (
 SELECT DISTINCT(`MarketDate`)
-FROM `stock`.`MarketHistory_2001` 
+FROM `stock`.`MarketHistory_2000` 
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
 ORDER BY `MarketDate`
 ) AS T;
 
 SELECT `StockCode`, `MarketDate`, `Close`, `PreClose`, `Volume`, `PreVolume`, `Rate`, `PreRate`, `VolumeRate` 
-FROM `stock`.`MarketHistory_2001` WHERE `StockCode` = 'sz000678' 
+FROM `stock`.`MarketHistory_2000` WHERE `StockCode` = 'sz000678' 
 ORDER BY `MarketDate`;
 
--- 历史纪录中有效的天数 1375 5X
-SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2001`;
+-- 历史纪录中有效的天数 1395 5X
+SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2000`;
 
 -- 2666
 SELECT * FROM `stock`.`stock`;
 SELECT COUNT(1) FROM `stock`.`stock`;
 
-SELECT * FROM ( SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2001` ) AS t1
+SELECT * FROM ( SELECT DISTINCT(`StockCode`) FROM `stock`.`MarketHistory_2000` ) AS t1
 WHERE t1.`StockCode` NOT IN ( SELECT `StockCode` FROM `stock`.`stock` );
 
 -- 历史纪录中有效的天数 1425 10+
 SELECT * FROM (
-SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2001` ) AS t1
-WHERE t1.`MarketDate` NOT IN ( SELECT DISTINCT( `FocusDate` ) FROM `stock`.`nanhuacrabstore_2001` );
+SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2000` ) AS t1
+WHERE t1.`MarketDate` NOT IN ( SELECT DISTINCT( `FocusDate` ) FROM `stock`.`nanhuacrabstore_2000` );
 
 SELECT COUNT(1) * 5 FROM (
-SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2001` ) AS t1
-WHERE t1.`MarketDate` NOT IN ( SELECT DISTINCT( `FocusDate` ) FROM `stock`.`nanhuacrabstore_2001` );
+SELECT DISTINCT(`MarketDate`) FROM `stock`.`MarketHistory_2000` ) AS t1
+WHERE t1.`MarketDate` NOT IN ( SELECT DISTINCT( `FocusDate` ) FROM `stock`.`nanhuacrabstore_2000` );
 
 SELECT `StockCode`, `MarketDate`, `Close`, `PreClose`, `Volume`, `PreVolume`, `Rate`, `PreRate`, `VolumeRate` 
-FROM `stock`.`MarketHistory_2001`
+FROM `stock`.`MarketHistory_2000`
 WHERE `Rate` > 1 AND `VolumeRate` > 1 AND `MarketDate` = '2003-01-14';
 
 SELECT `MarketHistory`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
@@ -117,12 +117,12 @@ ORDER BY `VolumeRate` DESC, `MarketHistory`.`StockCode`
 LIMIT 0, 1;
 
 -- 关注日期 1415 spend 85 seconds
-SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2001`;
-SELECT * FROM `stock`.`nanhuacrabstore_2001` ORDER BY `FocusDate` DESC, `StockCode`;
-SELECT `focusdate` FROM `stock`.`nanhuacrabstore_2001` GROUP BY `focusdate` HAVING COUNT(1) < 5;
+SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2000`;
+SELECT * FROM `stock`.`nanhuacrabstore_2000` ORDER BY `FocusDate` DESC, `StockCode`;
+SELECT `focusdate` FROM `stock`.`nanhuacrabstore_2000` GROUP BY `focusdate` HAVING COUNT(1) < 5;
 
 SELECT COUNT(1) * 5 FROM (
-SELECT DISTINCT( `MarketDate` ) FROM `stock`.`MarketHistory_2001` ) AS T;
+SELECT DISTINCT( `MarketDate` ) FROM `stock`.`MarketHistory_2000` ) AS T;
 
 SELECT *, COUNT(1) FROM (
 SELECT DISTINCT(`MarketDate`) FROM `markethistory` ) AS t1
@@ -136,14 +136,14 @@ SELECT * FROM `MarketHistory` WHERE `MarketDate` NOT IN ( SELECT `MarketDate` FR
 -- close spend 26 seconds
 -- out spend 60 seconds
 SELECT `BuyRate`, `SellRate`, COUNT(1), COUNT(`BuyDate`) / COUNT(1), COUNT(`BuyDate`), COUNT(`SellDate`), COUNT(`SellDate`) / COUNT(`BuyDate`), COUNT(`Close`)
-FROM `stock`.`nanhuacrabstore_2001` GROUP BY `BuyRate`, `SellRate`;
+FROM `stock`.`nanhuacrabstore_2000` GROUP BY `BuyRate`, `SellRate`;
 
 -- spend 40 seconds
 SELECT COUNT(1), COUNT(`Close`) FROM `test`.`nanhuacrabstore`;
 SELECT * FROM `nanhuacrabstore` WHERE `Close` IS NULL;
 SELECT * FROM `nanhuacrabstore` WHERE `Close` IS NULL;
 
-SELECT * FROM `MarketHistory_2001` WHERE `StockCode` = 'sh600651' ORDER BY `MarketDate` DESC LIMIT 0, 1;
+SELECT * FROM `MarketHistory_2000` WHERE `StockCode` = 'sh600651' ORDER BY `MarketDate` DESC LIMIT 0, 1;
 
 
 
