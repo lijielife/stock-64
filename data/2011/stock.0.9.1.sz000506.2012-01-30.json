@@ -1,1 +1,23 @@
-{ "stockname": "中润资源", "stockcode": "sz000506", "focusdate":"2012-01-30", "focusprice":"10.47", "buydate":"null", "buyprice":"0.0", "selldate":"null", "sellprice":"0.0", "industry":"房地产", "focusdate":"2012-01-30", "focusprice":"10.47", "close":"10.24", "low":"10.04", "expectedBuyPrice":"9.42", "expectedSellPrice":"10.47", "buyDate":"null", "actualBuyPrice":"0.0", "sellDate":"null", "actualSellPrice":"0.0", "data":[[1327852800000,9.89,10.67,9.85,10.47,16362134,"2012-01-30"],[1327939200000,10.2,10.4,10.04,10.24,6988501,"2012-01-31"],[0,0,0,0,0,0]]}
+{ "stockname": "中润资源"
+, "stockcode": "sz000506"
+, "focusdate":"2012-01-30"
+, "focusprice":"10.47"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"房地产"
+, "focusdate":"2012-01-30"
+, "focusprice":"10.47"
+, "close":"10.24"
+, "low":"10.04"
+, "expectedBuyPrice":"9.42"
+, "expectedSellPrice":"10.47"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1327852800000,9.89,10.67,9.85,10.47,16362134,9.7,1.0794,4.0694,"2012-01-30"],
+[1327939200000,10.2,10.4,10.04,10.24,6988501,10.47,0.978,0.4271,"2012-01-31"],
+[0,0,0,0,0,0]]}
