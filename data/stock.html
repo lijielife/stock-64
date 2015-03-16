@@ -16,26 +16,38 @@
                 <tr>
                     <th>#</th>
                     <th>Date</th>
+                    <th>Pre Close</th>
                     <th>Open</th>
                     <th>Close</th>
+                    <th>Rate</th>
                     <th>High</th>
                     <th>Low</th>
+                    <th>Volume</th>
+                    <th>Volume Rate</th>
                 </tr>
             </thead>
             <tbody data-bind="foreach: { data: $root }">
                 <tr>
                     <td
-                        data-bind="text: getRowSequence(($index()+1),$data[6]), style: { color: getColor($data[6]) }"></td>
+                        data-bind="text: getRowSequence(($index()+1),$data[9]), style: { color: getColor($data[9]) }"></td>
                     <td
-                        data-bind="text: $data[6], style: { color: getColor($data[6]) }"></td>
+                        data-bind="text: $data[9], style: { color: getColor($data[9]) }"></td>
                     <td
-                        data-bind="text: $data[1], style: { color: getColor($data[6]) }"></td>
+                        data-bind="text: $data[6], style: { color: getColor($data[9]) }"></td>
                     <td
-                        data-bind="text: $data[4], style: { color: getColor($data[6]) }"></td>
+                        data-bind="text: $data[1], style: { color: getColor($data[9]) }"></td>
                     <td
-                        data-bind="text: $data[2], style: { color: getColor($data[6]) }"></td>
+                        data-bind="text: $data[4], style: { color: getColor($data[9]) }"></td>
                     <td
-                        data-bind="text: $data[3], style: { color: getColor($data[6]) }"></td>
+                        data-bind="text: $data[7], style: { color: getColor($data[9]) }"></td>
+                    <td
+                        data-bind="text: $data[2], style: { color: getColor($data[9]) }"></td>
+                    <td
+                        data-bind="text: $data[3], style: { color: getColor($data[9]) }"></td>
+                    <td
+                        data-bind="text: $data[5], style: { color: getColor($data[9]) }"></td>
+                    <td
+                        data-bind="text: $data[8], style: { color: getColor($data[9]) }"></td>
                 </tr>
             </tbody>
         </table>
