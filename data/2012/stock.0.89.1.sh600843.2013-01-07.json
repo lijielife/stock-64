@@ -1,1 +1,23 @@
-{ "stockname": "上工申贝", "stockcode": "sh600843", "focusdate":"2013-01-07", "focusprice":"7.45", "buydate":"null", "buyprice":"0.0", "selldate":"null", "sellprice":"0.0", "industry":"机械行业", "focusdate":"2013-01-07", "focusprice":"7.45", "close":"7.45", "low":"6.66", "expectedBuyPrice":"6.63", "expectedSellPrice":"7.45", "buyDate":"null", "actualBuyPrice":"0.0", "sellDate":"null", "actualSellPrice":"0.0", "data":[[1357228800000,6.8,6.94,6.7,6.77,929805,"2013-01-04"],[1357488000000,6.66,7.45,6.66,7.45,8892192,"2013-01-07"],[0,0,0,0,0,0]]}
+{ "stockname": "上工申贝"
+, "stockcode": "sh600843"
+, "focusdate":"2013-01-07"
+, "focusprice":"7.45"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"机械行业"
+, "focusdate":"2013-01-07"
+, "focusprice":"7.45"
+, "close":"7.45"
+, "low":"6.66"
+, "expectedBuyPrice":"6.63"
+, "expectedSellPrice":"7.45"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1357228800000,6.8,6.94,6.7,6.77,929805,6.82,0.9927,0.5457,"2013-01-04"],
+[1357488000000,6.66,7.45,6.66,7.45,8892192,6.77,1.1004,9.5635,"2013-01-07"],
+[0,0,0,0,0,0]]}
