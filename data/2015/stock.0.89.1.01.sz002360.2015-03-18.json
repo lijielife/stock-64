@@ -1,0 +1,24 @@
+{ "stockname": "同德化工"
+, "stockcode": "sz002360"
+, "focusdate":"2015-03-18"
+, "focusprice":"9.22"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"化工行业"
+, "focusdate":"2015-03-18"
+, "focusprice":"9.22"
+, "close":"9.25"
+, "low":"9.13"
+, "expectedBuyPrice":"8.21"
+, "expectedSellPrice":"9.31"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1426608000000,8.9,9.22,8.73,9.22,34800000,8.38,1.1002,5.8816,"2015-03-18"],
+[1426694400000,9.25,9.44,9.06,9.2,25400000,9.22,0.9978,0.7299,"2015-03-19"],
+[1426780800000,9.24,9.26,9.13,9.25,14900000,9.2,1.0054,0.5866,"2015-03-20"],
+[0,0,0,0,0,0]]}
