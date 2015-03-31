@@ -85,6 +85,7 @@ ALTER TABLE MarketHistory DROP COLUMN `StockId`;
 ALTER TABLE MarketHistory ADD `PreVolume` BIGINT NULL COMMENT '上次交易量';
 ALTER TABLE MarketHistory ADD `Turnover` DECIMAL(18,2) NULL COMMENT '换手率%';
 ALTER TABLE MarketHistory ADD `PreRate` DECIMAL(18,4) NULL COMMENT '上一交易日的价比';
+ALTER TABLE `Stock`.`MarketHistory` ADD `CloseOpenRate` DECIMAL(18,4) NULL COMMENT '收盘价除以开盘价';
 
 UPDATE MarketHistory SET `StockCode` = CONCAT('sh', `StockId`);
 SELECT CONCAT('sh', CAST(`StockId` AS CHAR(6))) FROM MarketHistory;
@@ -441,10 +442,10 @@ GROUP BY `BuyRate`, `SellRate`;
 
 SELECT `Close` FROM `MarketHistory` WHERE `StockCode` = 'sz002184' ORDER BY `MarketDate` DESC LIMIT 0, 1;
 
-SELECT `MarketHistory`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`
-FROM `MarketHistory` INNER JOIN `Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
+SELECT `Stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`
+FROM `stock`.`MarketHistory` INNER JOIN `stock`.`Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
-AND `MarketDate` = '2015-03-09' AND `MarketHistory`.`StockCode` NOT LIKE 'sz3%'
+AND `MarketDate` = '2015-03-17'
 ORDER BY `VolumeRate` DESC, `MarketHistory`.`StockCode`
 LIMIT 0, 1;
 
@@ -458,42 +459,43 @@ VALUES( 'sh600038', '中直股份', '航天航空', '2014-01-02', '27.6', '28.4'
 -- ----------------------------------------------------------------------------------------------------------------------------------------
 USE stock;
 -- 2666
-SELECT COUNT(1) FROM `stock`;
-SELECT * FROM `MarketHistory` WHERE `StockCode` = 'sz000416' ORDER BY `MarketDate`;
+SELECT COUNT(1) FROM `stock`.`stock`;
+SELECT * FROM `stock`.`MarketHistory` WHERE `StockCode` = 'sz000416' ORDER BY `MarketDate`;
 
 -- 查询下载了多少数据 spend 427 seconds
-SELECT DISTINCT `MarketDate`, COUNT(1) FROM MarketHistory GROUP BY `MarketDate` ORDER BY `MarketDate` DESC;
-SELECT COUNT(1) FROM `MarketHistory` WHERE `Rate` IS NULL;
-SELECT COUNT(1) FROM `MarketHistory` WHERE `Volume` = 0;
+SELECT DISTINCT `MarketDate`, COUNT(1) FROM `stock`.`MarketHistory` GROUP BY `MarketDate` ORDER BY `MarketDate` DESC;
+SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Rate` IS NULL;
+SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Volume` = 0;
 
--- 更新 PreRate 2502 spend 199 seconds
-SELECT * FROM `MarketHistory` ORDER BY `MarketDate` DESC;
-SELECT COUNT(1) FROM `MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999; 
-SELECT * FROM `MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999 ORDER BY `MarketDate` DESC;
+-- 更新 PreRate 55/2620 spend 199 seconds
+SELECT * FROM `stock`.`MarketHistory` ORDER BY `MarketDate` DESC;
+SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999; 
+SELECT * FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999 ORDER BY `MarketDate` DESC;
+SELECT COUNT(1) FROM `Stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL;
+SELECT * FROM `stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL ORDER BY `MarketDate` DESC;
 
--- 更新 PreVolume 2502 spend 191 seconds
-SELECT COUNT(1) FROM `MarketHistory` WHERE `PreVolume` IS NULL;
-UPDATE `MarketHistory` SET `VolumeRate` = `Volume` / `PreVolume` WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
-SELECT COUNT(1) FROM `MarketHistory` WHERE `VolumeRate` IS NULL;
+-- 更新 PreVolume 55 spend 158 seconds
+SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreVolume` IS NULL;
+UPDATE `stock`.`MarketHistory` SET `VolumeRate` = `Volume` / `PreVolume` WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
+SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `VolumeRate` IS NULL;
 
 -- 关注日期 1450
-SELECT * FROM `nanhuacrabstore` ORDER BY `FocusDate` DESC, `StockCode`;
+SELECT * FROM `stock`.`nanhuacrabstore` ORDER BY `FocusDate` DESC, `StockCode`;
 
-SELECT `MarketHistory`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
-FROM `MarketHistory` INNER JOIN `Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
+SELECT `stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
+FROM `stock`.`MarketHistory` INNER JOIN `stock`.`Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
-AND `MarketDate` = '2015-03-10' AND `MarketHistory`.`StockCode` NOT LIKE 'sz3%'
-ORDER BY `VolumeRate` DESC, `MarketHistory`.`StockCode`
+AND `MarketDate` = CURDATE() AND `stock`.`StockCode` NOT LIKE 'sz3%'
+ORDER BY `VolumeRate` DESC, `stock`.`StockCode`
 LIMIT 0, 10;
 
 -- 买入日期 681 spend 56 seconds
-SELECT COUNT(1), COUNT(`BuyDate`) FROM `nanhuacrabstore`;
+SELECT COUNT(1), COUNT(`BuyDate`) FROM `stock`.`nanhuacrabstore`;
 
 -- 卖出日期 643 spend 6 seconds
-SELECT `BuyRate`, `SellRate`, COUNT(1), COUNT(`BuyDate`), COUNT(`SellDate`), COUNT(`SellDate`) / COUNT(`BuyDate`)
-FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
-SELECT `BuyRate`, `SellRate` FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
-SELECT `BuyRate`, `SellRate`, COUNT(1) FROM `nanhuacrabstore` WHERE `BuyDate` IS NOT NULL AND `SellDate` IS NULL GROUP BY `BuyRate`, `SellRate`;
+ FROM `stock`.`nanhuacrabstore_2014` GROUP BY `BuyRate`, `SellRate`;
+SELECT `BuyRate`, `SellRate` FROM `stock`.`nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
+SELECT `BuyRate`, `SellRate`, COUNT(1) FROM `stock`.`nanhuacrabstore` WHERE `BuyDate` IS NOT NULL AND `SellDate` IS NULL GROUP BY `BuyRate`, `SellRate`;
 
 -- 最新价格 spend 55 seconds
 
@@ -504,51 +506,14 @@ SELECT * FROM `nanhuacrabstore` WHERE `StockCode` IN ( 'sz002114' );
 SELECT `BuyRate`, `SellRate` FROM `nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
 
 -- -------------------------------------------------------------------------------------------------
+ALTER TABLE `Stock`.`MarketHistory` ADD `CloseOpenRate` DECIMAL(18,4) NULL COMMENT '收盘价除以开盘价';
+ALTER TABLE `Stock`.`MarketHistory` ADD `PreCloseOpenRate` DECIMAL(18,4) NULL COMMENT '上一交易日收盘价除以开盘价';
 
-SELECT `Month`, COUNT(1) FROM (
-SELECT *, DATE_FORMAT(`BuyDate`, '%Y-%m') AS `Month` FROM `nanhuacrabstore` WHERE `BuyRate` = 0.9 AND `SellRate` = 1 AND `BuyDate` IS NOT NULL ) AS T
-GROUP BY `Month`
-ORDER BY `Month`;
+SELECT COUNT(1) FROM `Stock`.`MarketHistory` WHERE `CloseOpenRate` IS NULL;
+SELECT * FROM `Stock`.`MarketHistory` WHERE `CloseOpenRate` IS NULL;
+UPDATE `Stock`.`MarketHistory` SET `CloseOpenRate` = `Close` / `Open` WHERE `CloseOpenRate` IS NULL;
 
-SELECT `Month`, COUNT(1) FROM (
-SELECT *, DATE_FORMAT(`SellDate`, '%Y-%m') AS `Month` FROM `nanhuacrabstore` WHERE `BuyRate` = 0.9 AND `SellRate` = 1 AND `SellDate` IS NOT NULL ) AS T
-GROUP BY `Month`
-ORDER BY `Month`;
+SELECT COUNT(1) FROM `Stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL;
+SELECT * FROM `Stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL;
 
-SELECT `FocusMonth`, COUNT(`BuyDate`), COUNT(`SellDate`) FROM (
-SELECT *, DATE_FORMAT(`FocusDate`, '%Y-%m') AS `FocusMonth` FROM `nanhuacrabstore` WHERE `BuyRate` = 0.9 AND `SellRate` = 1 ) AS T
-GROUP BY `FocusMonth`
-ORDER BY `FocusMonth`;
--- ------------------------------------------------------------------------------------------
-use stock;
-DESCRIBE `nanhuacrabstore`;
-DESCRIBE `markethistory`;
-SHOW CREATE TABLE `nanhuacrabstore`;
-SHOW CREATE TABLE `markethistory`;
-
-INSERT INTO `stock`.`nanhuacrabstore_2013` ( StockCode,StockName,Industry,FocusDate,FocusOpen,FocusClose,FocusHign,FocusLow,BuyRate,ExpectedBuyPrice,SellRate,ExpectedSellPrice,BuyDate,BuyOpen,BuyClose,BuyHign,BuyLow,SellDate,SellOpen,SellClose,SellHign,SellLow,FocusVolumeRate,Close,ActualSellPrice,ActualBuyPrice,Open,Low,Hign )
-SELECT StockCode,StockName,Industry,FocusDate,FocusOpen,FocusClose,FocusHign,FocusLow,BuyRate,ExpectedBuyPrice,SellRate,ExpectedSellPrice,BuyDate,BuyOpen,BuyClose,BuyHign,BuyLow,SellDate,SellOpen,SellClose,SellHign,SellLow,FocusVolumeRate,Close,ActualSellPrice,ActualBuyPrice,Open,Low,Hign FROM `test`.`nanhuacrabstore`;
-
-SELECT COUNT(1) FROM `test`.`nanhuacrabstore`;
-SELECT COUNT(1) FROM `stock`.`nanhuacrabstore_2013`;
-SELECT COUNT(1), COUNT(`Close`), COUNT(`BuyDate`), COUNT(`SellDate`) FROM `stock`.`nanhuacrabstore_2013`;
-
-INSERT INTO `stock`.`markethistory_2013` ( MarketDate, Open, Close, Hign, Low, Volume, Amount, HignRate, LowRate, PreClose, VolumeRate, StockCode, PreVolume, Rate, Turnover, PreRate )
-SELECT MarketDate, Open, Close, Hign, Low, Volume, Amount, HignRate, LowRate, PreClose, VolumeRate, StockCode, PreVolume, Rate, Turnover, PreRate FROM `test`.`markethistory`;
-
-SELECT COUNT(1) FROM `test`.`markethistory`;
-SELECT COUNT(1) FROM `stock`.`markethistory_2013`;
-
-SELECT `Stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
-FROM `MarketHistory_2012` INNER JOIN `Stock` ON `MarketHistory_2012`.`StockCode` = `Stock`.`StockCode`
-WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
-AND `MarketDate` = '2012-06-06' AND `Stock`.`StockCode` NOT LIKE 'sz3%'
-ORDER BY `VolumeRate` DESC, `Stock`.`StockCode`
-LIMIT 0, 1;
-
-SELECT DISTINCT(`MarketDate`)
-FROM `stock`.`MarketHistory_2012` 
-WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1;
-
-AND `MarketDate` = '2011-12-02' 
-ORDER BY `VolumeRate` DESC, `StockCode`;
+SELECT * FROM `Stock`.`MarketHistory` ORDER BY `MarketDate`;

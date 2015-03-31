@@ -114,6 +114,7 @@ SELECT * FROM `stock`.`nanhuacrabstore` WHERE `BuyRate` = 0 AND `SellRate` = 0 O
 SELECT * FROM `stock`.`MarketHistory_2014` WHERE `MarketDate` = '2014-01-02' AND `StockCode` IN ( 'sh600345', 'sh600038' );
 SELECT * FROM `stock`.`MarketHistory` WHERE `MarketDate` = '2014-01-02' AND `StockCode` IN ( 'sh600345', 'sh600038' );
 
+SELECT * FROM `stock`.`nanhuacrabstore`;
 SELECT * FROM `stock`.`nanhuacrabstore` WHERE `FocusDate` < '2014-12-01';
 DELETE FROM `stock`.`nanhuacrabstore` WHERE `FocusDate` < '2014-12-01';
 
