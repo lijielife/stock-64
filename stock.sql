@@ -467,14 +467,14 @@ SELECT DISTINCT `MarketDate`, COUNT(1) FROM `stock`.`MarketHistory` GROUP BY `Ma
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Rate` IS NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Volume` = 0;
 
--- 更新 PreRate 55/2620 spend 199 seconds
+-- 更新 PreRate 56/2621 spend 199 seconds
 SELECT * FROM `stock`.`MarketHistory` ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999; 
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999 ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `Stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL;
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL ORDER BY `MarketDate` DESC;
 
--- 更新 PreVolume 55 spend 158 seconds
+-- 更新 PreVolume 56 spend 158 seconds
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreVolume` IS NULL;
 UPDATE `stock`.`MarketHistory` SET `VolumeRate` = `Volume` / `PreVolume` WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `VolumeRate` IS NULL;
@@ -493,7 +493,7 @@ LIMIT 0, 10;
 SELECT COUNT(1), COUNT(`BuyDate`) FROM `stock`.`nanhuacrabstore`;
 
 -- 卖出日期 643 spend 6 seconds
- FROM `stock`.`nanhuacrabstore_2014` GROUP BY `BuyRate`, `SellRate`;
+SELECT * FROM `stock`.`nanhuacrabstore_2014` GROUP BY `BuyRate`, `SellRate`;
 SELECT `BuyRate`, `SellRate` FROM `stock`.`nanhuacrabstore` GROUP BY `BuyRate`, `SellRate`;
 SELECT `BuyRate`, `SellRate`, COUNT(1) FROM `stock`.`nanhuacrabstore` WHERE `BuyDate` IS NOT NULL AND `SellDate` IS NULL GROUP BY `BuyRate`, `SellRate`;
 
