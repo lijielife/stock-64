@@ -1,0 +1,23 @@
+{ "stockname": "圣莱达"
+, "stockcode": "sz002473"
+, "focusdate":"2015-04-09"
+, "focusprice":"31.97"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"家电行业"
+, "focusdate":"2015-04-09"
+, "focusprice":"31.97"
+, "close":"31.97"
+, "low":"28.76"
+, "expectedBuyPrice":"28.77"
+, "expectedSellPrice":"31.97"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1428422400000,31.96,31.96,31.96,31.96,2090000,35.51,0.9,3.7678,"2015-04-08"],
+[1428508800000,29.4,32.96,28.76,31.97,23300000,31.96,1.0003,11.1483,"2015-04-09"],
+[0,0,0,0,0,0]]}
