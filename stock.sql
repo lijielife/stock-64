@@ -467,14 +467,14 @@ SELECT DISTINCT `MarketDate`, COUNT(1) FROM `stock`.`MarketHistory` GROUP BY `Ma
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Rate` IS NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Volume` = 0;
 
--- 更新 PreRate 57/2622 spend 199 seconds
+-- 更新 PreRate 59/2624 spend 199 seconds
 SELECT * FROM `stock`.`MarketHistory` ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999; 
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999 ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `Stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL;
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL ORDER BY `MarketDate` DESC;
 
--- 更新 PreVolume 56 spend 158 seconds
+-- 更新 PreVolume 59 spend 158 seconds
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreVolume` IS NULL;
 UPDATE `stock`.`MarketHistory` SET `VolumeRate` = `Volume` / `PreVolume` WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `VolumeRate` IS NULL;
