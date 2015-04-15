@@ -467,7 +467,7 @@ SELECT DISTINCT `MarketDate`, COUNT(1) FROM `stock`.`MarketHistory` GROUP BY `Ma
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Rate` IS NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Volume` = 0;
 
--- 更新 PreRate 59/2624 spend 199 seconds
+-- 更新 PreRate 60/2625 spend 199 seconds
 SELECT * FROM `stock`.`MarketHistory` ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999; 
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999 ORDER BY `MarketDate` DESC;
@@ -485,7 +485,7 @@ SELECT * FROM `stock`.`nanhuacrabstore` ORDER BY `FocusDate` DESC, `StockCode`;
 SELECT `stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
 FROM `stock`.`MarketHistory` INNER JOIN `stock`.`Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
 WHERE `PreRate` < 1 AND `Rate` > 1 AND `VolumeRate` > 1
-AND `MarketDate` = CURDATE() AND `stock`.`StockCode` NOT LIKE 'sz3%'
+AND `MarketDate` = '2015-04-07' AND `stock`.`StockCode` NOT LIKE 'sz3%'
 ORDER BY `VolumeRate` DESC, `stock`.`StockCode`
 LIMIT 0, 10;
 
