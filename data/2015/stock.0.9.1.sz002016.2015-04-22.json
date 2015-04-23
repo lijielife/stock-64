@@ -1,0 +1,22 @@
+{ "stockname": "世荣兆业"
+, "stockcode": "sz002016"
+, "focusdate":"2015-04-22"
+, "focusprice":"14.9"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"房地产"
+, "focusdate":"2015-04-22"
+, "focusprice":"14.9"
+, "close":"14.9"
+, "low":"14.76"
+, "expectedBuyPrice":"13.41"
+, "expectedSellPrice":"14.9"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1429632000000,15.0,16.12,14.76,14.9,27200000,14.71,1.0129,1.3949,"2015-04-22"],
+[0,0,0,0,0,0]]}
