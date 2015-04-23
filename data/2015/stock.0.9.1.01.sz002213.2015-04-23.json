@@ -1,0 +1,22 @@
+{ "stockname": "特 尔 佳"
+, "stockcode": "sz002213"
+, "focusdate":"2015-04-23"
+, "focusprice":"17.12"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"汽车行业"
+, "focusdate":"2015-04-23"
+, "focusprice":"17.12"
+, "close":"17.12"
+, "low":"14.84"
+, "expectedBuyPrice":"15.41"
+, "expectedSellPrice":"17.29"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1429718400000,15.41,17.14,14.84,17.12,24300000,15.58,1.0988,1.855,"2015-04-23"],
+[0,0,0,0,0,0]]}
