@@ -27,6 +27,7 @@ SHOW TABLE STATUS LIKE 'nanhuacrabstore';
 SHOW COLUMNS FROM `stock`;
 
 ALTER TABLE `stock` engine = myisam;
+SELECT COUNT(1) FROM `stock`.`stock`;
 
 CREATE TABLE `StockPriceStage`
 (
@@ -467,20 +468,26 @@ SELECT DISTINCT `MarketDate`, COUNT(1) FROM `stock`.`MarketHistory` GROUP BY `Ma
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Rate` IS NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Volume` = 0;
 
--- 更新 PreRate 60/2625 spend 199 seconds
+-- 更新 PreRate 99/2664 spend 199 seconds
 SELECT * FROM `stock`.`MarketHistory` ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999; 
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999 ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `Stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL;
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreCloseOpenRate` IS NULL ORDER BY `MarketDate` DESC;
 
--- 更新 PreVolume 59 spend 158 seconds
+-- 更新 PreVolume 85 spend 158 seconds
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreVolume` IS NULL;
 UPDATE `stock`.`MarketHistory` SET `VolumeRate` = `Volume` / `PreVolume` WHERE `VolumeRate` IS NULL AND `PreVolume` IS NOT NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `VolumeRate` IS NULL;
 
 -- 关注日期 1450
 SELECT * FROM `stock`.`nanhuacrabstore` ORDER BY `FocusDate` DESC, `StockCode`;
+SELECT * FROM `stock`.`nanhuacrabstore`;
+
+SELECT `StockCode`, `StockName`, `FocusDate`, `SellRate`, `BuyRate`, COUNT(1), MAX(`Id`)
+FROM `stock`.`nanhuacrabstore`
+GROUP BY `StockCode`, `StockName`, `FocusDate`, `SellRate`, `BuyRate`
+HAVING COUNT(1) > 1;
 
 SELECT `stock`.`StockCode`, `Stock`.`StockName`, `Stock`.`Industry`, `MarketDate`, `PreClose`, `Close`, `Open`, `Low`, `Hign`, `VolumeRate`
 FROM `stock`.`MarketHistory` INNER JOIN `stock`.`Stock` ON `MarketHistory`.`StockCode` = `Stock`.`StockCode`
