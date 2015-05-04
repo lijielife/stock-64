@@ -450,7 +450,6 @@ AND `MarketDate` = '2015-03-17'
 ORDER BY `VolumeRate` DESC, `MarketHistory`.`StockCode`
 LIMIT 0, 1;
 
-SELECT * FROM `nanhuacrabstore` WHERE `StockCode` = '%1$s' AND `FocusDate` = '%2$s' AND `BuyRate` = %3$s AND `SellRate` = %4$s;
 INSERT INTO `nanhuacrabstore`( `StockCode`, `StockName`, `Industry`, `FocusDate`, `FocusOpen`, `FocusClose`, `FocusHign`, `FocusLow`, `BuyRate`, `ExpectedBuyPrice`, `SellRate`, `ExpectedSellPrice` )
 VALUES( '%1$s', '%2$s', '%3$s', '%4$s', '%5$s', '%6$s', '%7$s', '%8$s', '%9$s', '%10$s', '%11$s', '%12$s' );
 
