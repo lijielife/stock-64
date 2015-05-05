@@ -1,0 +1,22 @@
+{ "stockname": "首航节能"
+, "stockcode": "sz002665"
+, "focusdate":"2015-05-04"
+, "focusprice":"27.16"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"机械行业"
+, "focusdate":"2015-05-04"
+, "focusprice":"27.16"
+, "close":"27.16"
+, "low":"26.9"
+, "expectedBuyPrice":"24.17"
+, "expectedSellPrice":"27.16"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1430668800000,28.3,28.45,26.9,27.16,33800000,25.86,1.0503,3.8851,"2015-05-04"],
+[0,0,0,0,0,0]]}
