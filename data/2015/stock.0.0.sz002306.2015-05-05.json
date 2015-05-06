@@ -1,0 +1,24 @@
+{ "stockname": "*ST云网"
+, "stockcode": "sz002306"
+, "focusdate":"2015-05-05"
+, "focusprice":"7.67"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"旅游酒店"
+, "focusdate":"2015-05-05"
+, "focusprice":"7.67"
+, "close":"7.67"
+, "low":"7.05"
+, "expectedBuyPrice":"7.05"
+, "expectedSellPrice":"7.67"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1430323200000,7.68,7.68,7.68,7.68,11200000,8.08,0.9505,0.1273,"2015-04-30"],
+[1430668800000,7.3,7.3,7.3,7.3,15700000,7.68,0.9505,1.4018,"2015-05-04"],
+[1430755200000,7.05,7.67,7.05,7.67,111000000,7.3,1.0507,7.0701,"2015-05-05"],
+[0,0,0,0,0,0]]}
