@@ -1,0 +1,22 @@
+{ "stockname": "石中装备"
+, "stockcode": "sz002691"
+, "focusdate":"2015-05-10"
+, "focusprice":"18.47"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"机械行业"
+, "focusdate":"2015-05-10"
+, "focusprice":"18.47"
+, "close":"18.47"
+, "low":"16.6"
+, "expectedBuyPrice":"16.44"
+, "expectedSellPrice":"18.47"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1431187200000,18.47,18.47,16.6,18.47,21500000,16.79,1.1001,12.4825,"2015-05-10"],
+[0,0,0,0,0,0]]}
