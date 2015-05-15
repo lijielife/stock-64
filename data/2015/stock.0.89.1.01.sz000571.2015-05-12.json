@@ -1,0 +1,24 @@
+{ "stockname": "新大洲Ａ"
+, "stockcode": "sz000571"
+, "focusdate":"2015-05-12"
+, "focusprice":"7.8"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"煤炭采选"
+, "focusdate":"2015-05-12"
+, "focusprice":"7.8"
+, "close":"7.9"
+, "low":"7.48"
+, "expectedBuyPrice":"6.94"
+, "expectedSellPrice":"7.88"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1431360000000,7.49,7.88,7.26,7.8,68900000,7.4,1.0541,2.8589,"2015-05-12"],
+[1431446400000,7.68,7.75,7.52,7.56,42600000,7.8,0.9692,0.6183,"2015-05-13"],
+[1431532800000,7.55,7.98,7.48,7.9,52100000,7.56,1.045,1.223,"2015-05-14"],
+[0,0,0,0,0,0]]}
