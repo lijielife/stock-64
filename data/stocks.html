@@ -58,7 +58,7 @@
                     <tr>
                         <td data-bind="text: ($index()+1)"></td>
                         <td><a target="_blank"
-                            data-bind="text: stockCode, attr: { href: ( 'http://finance.sina.com.cn/realstock/company/'+stockCode+'/nc.shtml' ) }"></a></td>
+                            data-bind="text: stockCode, attr: { href: ( 'http://finance.sina.com.cn/realstock/company/'+stockCode+'/nc.shtml' ) }, style: { color: ( 0===stockCode.indexOf('sz002') ? '#F9B41B' : '' ) }"></a></td>
                         <td><a target="_blank"
                             data-bind="text: stockName, attr: { href: ( 'stock.html?year='+window.year+'&json=stock.'+buyRate+'.'+sellRate+'.'+stockCode+'.'+focusDate+'.json' ) }"></a></td>
                         <td data-bind="text: industry"></td>
@@ -147,7 +147,7 @@
                     window.year = url.param("year") || "2015";
                     var jsonfile = year
                             + "/"
-                            + (url.param("json") || "statistics.b[0.9].s[1.0].json");
+                            + (url.param("json") || "statistics.b[0.0].s[0.0].json");
 
                     jQuery
                             .get(
