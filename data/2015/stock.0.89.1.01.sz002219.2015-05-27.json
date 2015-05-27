@@ -1,0 +1,23 @@
+{ "stockname": "恒康医疗"
+, "stockcode": "sz002219"
+, "focusdate":"2015-05-27"
+, "focusprice":"43.8"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"医药行业"
+, "focusdate":"2015-05-27"
+, "focusprice":"43.8"
+, "close":"43.8"
+, "low":"40.8"
+, "expectedBuyPrice":"38.98"
+, "expectedSellPrice":"44.24"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1432224000000,43.9,44.1,42.1,42.7,10100000,43.7,0.9771,0.9352,"2015-05-22"],
+[1432656000000,41.79,43.88,40.8,43.8,19500000,42.7,1.0258,1.9307,"2015-05-27"],
+[0,0,0,0,0,0]]}
