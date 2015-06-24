@@ -1,0 +1,23 @@
+{ "stockname": "园城黄金"
+, "stockcode": "sh600766"
+, "focusdate":"2015-06-24"
+, "focusprice":"17.86"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"综合行业"
+, "focusdate":"2015-06-24"
+, "focusprice":"17.86"
+, "close":"17.86"
+, "low":"16.2"
+, "expectedBuyPrice":"16.2"
+, "expectedSellPrice":"18.5"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1434988800000,17.35,17.35,17.35,17.35,1640000,19.28,0.8999,0.0692,"2015-06-23"],
+[1435075200000,16.2,18.5,16.2,17.86,23000000,17.35,1.0294,14.0244,"2015-06-24"],
+[0,0,0,0,0,0]]}
