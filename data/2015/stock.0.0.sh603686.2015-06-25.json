@@ -1,0 +1,22 @@
+{ "stockname": "龙马环卫"
+, "stockcode": "sh603686"
+, "focusdate":"2015-06-25"
+, "focusprice":"118.22"
+, "buydate":"null"
+, "buyprice":"0.0"
+, "selldate":"null"
+, "sellprice":"0.0"
+, "industry":"机械行业"
+, "focusdate":"2015-06-25"
+, "focusprice":"118.22"
+, "close":"118.22"
+, "low":"106.69"
+, "expectedBuyPrice":"106.69"
+, "expectedSellPrice":"126.89"
+, "buyDate":"null"
+, "actualBuyPrice":"0.0"
+, "sellDate":"null"
+, "actualSellPrice":"0.0"
+, "data":[
+[1435161600000,126.89,126.89,106.69,118.22,5170000,115.63,1.0224,2.4502,"2015-06-25"],
+[0,0,0,0,0,0]]}
