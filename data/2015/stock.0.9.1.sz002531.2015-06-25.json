@@ -2,21 +2,23 @@
 , "stockcode": "sz002531"
 , "focusdate":"2015-06-25"
 , "focusprice":"18.62"
-, "buydate":"null"
-, "buyprice":"0.0"
+, "buydate":"2015-06-26"
+, "buyprice":"16.76"
 , "selldate":"null"
 , "sellprice":"0.0"
 , "industry":"机械行业"
 , "focusdate":"2015-06-25"
 , "focusprice":"18.62"
-, "close":"18.62"
-, "low":"17.24"
+, "close":"14.59"
+, "low":"13.57"
 , "expectedBuyPrice":"16.76"
 , "expectedSellPrice":"18.62"
-, "buyDate":"null"
-, "actualBuyPrice":"0.0"
+, "buyDate":"2015-06-26"
+, "actualBuyPrice":"16.76"
 , "sellDate":"null"
 , "actualSellPrice":"0.0"
 , "data":[
 [1435161600000,18.6,19.95,17.24,18.62,68000000,18.24,1.0208,4.0476,"2015-06-25"],
+[1435248000000,17.52,17.99,16.76,16.76,17400000,18.62,0.9001,0.2559,"2015-06-26"],
+[1435593600000,13.57,15.0,13.57,14.59,33900000,15.08,0.9675,1.9483,"2015-06-30"],
 [0,0,0,0,0,0]]}
