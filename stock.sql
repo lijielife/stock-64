@@ -464,10 +464,13 @@ SELECT * FROM `stock`.`MarketHistory` WHERE `StockCode` = 'sz000416' ORDER BY `M
 
 -- 查询下载了多少数据 spend 427 seconds
 SELECT DISTINCT `MarketDate`, COUNT(1) FROM `stock`.`MarketHistory` GROUP BY `MarketDate` ORDER BY `MarketDate` DESC;
+-- UPDATE `stock`.`MarketHistory` SET `MarketDate` = '2015-09-09' WHERE `MarketDate` = '2015-09-10';
+-- DELETE FROM `stock`.`MarketHistory` WHERE `MarketDate` = '2015-09-13';
+-- SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `MarketDate` = '2015-09-10';
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Rate` IS NULL;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `Volume` = 0;
 
--- 更新 PreRate 211/2776 spend 199 seconds
+-- 更新 PreRate 213/2778 spend 199 seconds
 SELECT * FROM `stock`.`MarketHistory` ORDER BY `MarketDate` DESC;
 SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999; 
 SELECT * FROM `stock`.`MarketHistory` WHERE `PreRate` IS NULL AND `Rate` != -999 ORDER BY `MarketDate` DESC;
@@ -482,6 +485,7 @@ SELECT COUNT(1) FROM `stock`.`MarketHistory` WHERE `VolumeRate` IS NULL;
 -- 关注日期 1450
 SELECT * FROM `stock`.`nanhuacrabstore` ORDER BY `FocusDate` DESC, `StockCode`;
 SELECT * FROM `stock`.`nanhuacrabstore`;
+SELECT COUNT(1) FROM `stock`.`nanhuacrabstore`;
 
 SELECT `StockCode`, `StockName`, `FocusDate`, `SellRate`, `BuyRate`, COUNT(1), MAX(`Id`)
 FROM `stock`.`nanhuacrabstore`
