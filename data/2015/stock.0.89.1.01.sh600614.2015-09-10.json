@@ -2,22 +2,23 @@
 , "stockcode": "sh600614"
 , "focusdate":"2015-09-10"
 , "focusprice":"22.03"
-, "buydate":"null"
-, "buyprice":"0.0"
+, "buydate":"2015-09-14"
+, "buyprice":"19.61"
 , "selldate":"null"
 , "sellprice":"0.0"
 , "industry":"综合行业"
 , "focusdate":"2015-09-10"
 , "focusprice":"22.03"
-, "close":"20.93"
-, "low":"19.83"
+, "close":"18.84"
+, "low":"18.84"
 , "expectedBuyPrice":"19.61"
 , "expectedSellPrice":"22.25"
-, "buyDate":"null"
-, "actualBuyPrice":"0.0"
+, "buyDate":"2015-09-14"
+, "actualBuyPrice":"19.61"
 , "sellDate":"null"
 , "actualSellPrice":"0.0"
 , "data":[
 [1441814400000,18.29,22.28,18.29,22.03,51300000,20.32,1.0842,38.0,"2015-09-10"],
 [1441900800000,21.0,21.5,19.83,20.93,28700000,22.03,0.9501,0.5595,"2015-09-11"],
+[1442160000000,20.78,20.78,18.84,18.84,14500000,20.93,0.9001,0.5052,"2015-09-14"],
 [0,0,0,0,0,0]]}
